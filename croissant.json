@@ -167,7 +167,7 @@
       "description": "Per-seed AUROC and FPR95 values of the reported studies, one row per study, configuration, method and seed.",
       "contentUrl": "https://raw.githubusercontent.com/VISHNUBINDUBALACHANDRAN/ood-evaluation-neurips2026/v1.0.0/statistics/per_seed_auroc.csv",
       "encodingFormat": "text/csv",
-      "sha256": "419d9191abe11986fe44da65fbdb70a17eed2871349f71e3a7c6b26165cece5a"
+      "sha256": "ab9d038c33044561f7623550a57f598592d961c9da1e278f6851772b0f145d25"
     },
     {
       "@type": "cr:FileSet",

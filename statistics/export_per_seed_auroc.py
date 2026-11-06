@@ -117,7 +117,7 @@ def main():
     a = ap.parse_args()
     rows = build(os.path.abspath(a.root))
     with open(a.out, "w", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(COLUMNS)
         w.writerows(rows)
     by = {}
