@@ -1,0 +1,1843 @@
+[
+  {
+    "experiment": "financedocs_intra_seed42",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 42,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9861735510283248,
+        "fpr_at_95": 0.06620209059233449,
+        "id_mean": 0.16044478577093707,
+        "id_std": 0.05189365368172908,
+        "id_median": 0.14169651991577073,
+        "ood_mean": 0.4485635678118131,
+        "ood_std": 0.12435922725549033,
+        "ood_median": 0.45022242047928923,
+        "mann_whitney_u": 1996.0,
+        "mann_whitney_p": 1.376150532822683e-114,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.9865337591177672,
+        "fpr_at_95": 0.03484320557491289,
+        "id_mean": 0.017939721477367505,
+        "id_std": 0.020134858444883642,
+        "id_median": 0.009851926990417672,
+        "ood_mean": 0.13600331010625152,
+        "ood_std": 0.04759060232796123,
+        "ood_median": 0.13798498541784285,
+        "mann_whitney_u": 1944.0,
+        "mann_whitney_p": 9.369562200916148e-115,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.5520188970705384,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.119283508617895,
+        "id_std": 0.6082186546129732,
+        "id_median": 0.9736902091687906,
+        "ood_mean": 1.0719362914485424,
+        "ood_std": 0.3445661524190333,
+        "ood_median": 1.0400463602629875,
+        "mann_whitney_u": 64671.0,
+        "mann_whitney_p": 0.014923774461245412,
+        "significant": false
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.5192815234031353,
+        "fpr_at_95": 1.0,
+        "id_mean": 0.8391408448272061,
+        "id_std": 2.9923692731524603,
+        "id_median": -0.08989610020994965,
+        "ood_mean": 0.22801242399962166,
+        "ood_std": 1.0658955167460837,
+        "ood_median": -0.018129264393663913,
+        "mann_whitney_u": 69397.0,
+        "mann_whitney_p": 0.3669630573710253,
+        "significant": false
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9879399560823214,
+      "fpr_at_95": 0.04878048780487805,
+      "selected_features": [
+        "mean",
+        "variance"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9881373778236504,
+      "best_alpha": 0.30000000000000004,
+      "mah_only_auroc": 0.9703590304860731
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        503,
+        30
+      ],
+      "ood_shape": [
+        287,
+        30
+      ],
+      "eval_disp_global_mean": 0.16044478577093704,
+      "ood_disp_global_mean": 0.4485635678118131
+    },
+    "elapsed_seconds": 713.6730179786682,
+    "timestamp": "2026-03-19 22:31:05"
+  },
+  {
+    "experiment": "financedocs_intra_seed123",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 123,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.8914388235049633,
+        "fpr_at_95": 0.4738675958188153,
+        "id_mean": 0.20370784941958137,
+        "id_std": 0.0958642229838137,
+        "id_median": 0.19687229522494398,
+        "ood_mean": 0.4163367798581037,
+        "ood_std": 0.14893090823300473,
+        "ood_median": 0.422204055095624,
+        "mann_whitney_u": 15672.0,
+        "mann_whitney_p": 5.901219061187116e-75,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.8086048170904885,
+        "fpr_at_95": 0.759581881533101,
+        "id_mean": 0.026841168285813774,
+        "id_std": 0.032403532842318915,
+        "id_median": 0.019381835833229655,
+        "ood_mean": 0.06339176090918221,
+        "ood_std": 0.041174200345244535,
+        "ood_median": 0.05594608915363823,
+        "mann_whitney_u": 27630.0,
+        "mann_whitney_p": 2.817967750542167e-47,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.24559957329195561,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.3317015319502163,
+        "id_std": 0.6943824960968964,
+        "id_median": 1.2154454438492635,
+        "ood_mean": 0.8143997070521053,
+        "ood_std": 0.3196997351168829,
+        "ood_median": 0.8065460270840817,
+        "mann_whitney_u": 108906.0,
+        "mann_whitney_p": 1.1108899110051759e-32,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.31954613780730257,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.9548662942999935,
+        "id_std": 3.2510050478568426,
+        "id_median": 0.9093000671980014,
+        "ood_mean": 0.2798378852143144,
+        "ood_std": 0.9909164590899386,
+        "ood_median": 0.16218796686151427,
+        "mann_whitney_u": 98231.0,
+        "mann_whitney_p": 3.047596174336284e-17,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.8914388235049633,
+      "fpr_at_95": 0.4738675958188153,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9822458974376737,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9822458974376737
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        503,
+        30
+      ],
+      "ood_shape": [
+        287,
+        30
+      ],
+      "eval_disp_global_mean": 0.20370784941958137,
+      "ood_disp_global_mean": 0.4163367798581037
+    },
+    "elapsed_seconds": 735.0653584003448,
+    "timestamp": "2026-03-19 22:43:20"
+  },
+  {
+    "experiment": "financedocs_intra_seed456",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 456,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9398729573776851,
+        "fpr_at_95": 0.2682926829268293,
+        "id_mean": 0.1794098056074265,
+        "id_std": 0.08380337997685189,
+        "id_median": 0.16706806081966608,
+        "ood_mean": 0.4215818167086747,
+        "ood_std": 0.1361390118506625,
+        "ood_median": 0.445483602144661,
+        "mann_whitney_u": 8680.0,
+        "mann_whitney_p": 3.7377146398858603e-94,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.9070732400024938,
+        "fpr_at_95": 0.6062717770034843,
+        "id_mean": 0.026857649838622214,
+        "id_std": 0.044628986424991336,
+        "id_median": 0.01167803592335223,
+        "ood_mean": 0.11069878378949004,
+        "ood_std": 0.06853886713856568,
+        "ood_median": 0.09331511193525636,
+        "mann_whitney_u": 13415.0,
+        "mann_whitney_p": 6.561228836595392e-81,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.4997540887081692,
+        "fpr_at_95": 0.9895470383275261,
+        "id_mean": 1.3847439433091604,
+        "id_std": 0.7887023845302411,
+        "id_median": 1.2911207701644836,
+        "ood_mean": 1.3805102549360753,
+        "ood_std": 0.7261566811683736,
+        "ood_median": 1.2486922443485615,
+        "mann_whitney_u": 72216.0,
+        "mann_whitney_p": 0.9909473305742423,
+        "significant": false
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.47084046245177025,
+        "fpr_at_95": 0.9965156794425087,
+        "id_mean": 2.2548850090914456,
+        "id_std": 3.4835526543832778,
+        "id_median": 1.1835400624723444,
+        "ood_mean": 1.8620075187869154,
+        "ood_std": 2.7724598697008807,
+        "ood_median": 0.7332920471647415,
+        "mann_whitney_u": 76390.0,
+        "mann_whitney_p": 0.17242679692476648,
+        "significant": false
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9398729573776851,
+      "fpr_at_95": 0.2682926829268293,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.978581472835461,
+      "best_alpha": 0.8,
+      "mah_only_auroc": 0.9715158526194749
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        503,
+        30
+      ],
+      "ood_shape": [
+        287,
+        30
+      ],
+      "eval_disp_global_mean": 0.17940980560742648,
+      "ood_disp_global_mean": 0.4215818167086746
+    },
+    "elapsed_seconds": 723.2795524597168,
+    "timestamp": "2026-03-19 22:55:24"
+  },
+  {
+    "experiment": "financedocs_intra_seed789",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 789,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9661958562215557,
+        "fpr_at_95": 0.2264808362369338,
+        "id_mean": 0.18898738652671881,
+        "id_std": 0.07561896727910344,
+        "id_median": 0.17692749626439497,
+        "ood_mean": 0.4705761340635992,
+        "ood_std": 0.14228860640596983,
+        "ood_median": 0.4756970797734065,
+        "mann_whitney_u": 4880.0,
+        "mann_whitney_p": 1.6031569608951845e-105,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.9251598423396901,
+        "fpr_at_95": 0.47038327526132406,
+        "id_mean": 0.021259626747992342,
+        "id_std": 0.028287040655960508,
+        "id_median": 0.011987559988045076,
+        "ood_mean": 0.08751258398772692,
+        "ood_std": 0.049511549382063855,
+        "ood_median": 0.08191082592654819,
+        "mann_whitney_u": 10804.0,
+        "mann_whitney_p": 4.362862897985959e-88,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.3717693836978131,
+        "fpr_at_95": 0.9825783972125436,
+        "id_mean": 1.1807172146013187,
+        "id_std": 0.6076991743896107,
+        "id_median": 1.074102154386826,
+        "ood_mean": 0.9258744777706015,
+        "ood_std": 0.545641839582376,
+        "ood_median": 0.8830445394430687,
+        "mann_whitney_u": 90692.0,
+        "mann_whitney_p": 1.963643205522423e-09,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.37044631167697645,
+        "fpr_at_95": 0.9825783972125436,
+        "id_mean": 1.339542317628079,
+        "id_std": 2.5437231638311504,
+        "id_median": 0.5608506817362735,
+        "ood_mean": 0.5512229900887949,
+        "ood_std": 1.9838408806249186,
+        "ood_median": 0.020222185335080578,
+        "mann_whitney_u": 90883.0,
+        "mann_whitney_p": 1.3385226958716142e-09,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9661958562215557,
+      "fpr_at_95": 0.2264808362369338,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9640138264489717,
+      "best_alpha": 0.6000000000000001,
+      "mah_only_auroc": 0.9511017518581888
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        503,
+        30
+      ],
+      "ood_shape": [
+        287,
+        30
+      ],
+      "eval_disp_global_mean": 0.18898738652671881,
+      "ood_disp_global_mean": 0.47057613406359927
+    },
+    "elapsed_seconds": 714.6478750705719,
+    "timestamp": "2026-03-19 23:07:18"
+  },
+  {
+    "experiment": "financedocs_intra_seed1024",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 1024,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.979849128227153,
+        "fpr_at_95": 0.13588850174216027,
+        "id_mean": 0.20358889435767388,
+        "id_std": 0.09236292877004336,
+        "id_median": 0.19001465923739388,
+        "ood_mean": 0.5183578811079127,
+        "ood_std": 0.0987015890692306,
+        "ood_median": 0.5261319066426448,
+        "mann_whitney_u": 2909.0,
+        "mann_whitney_p": 1.1221016961255182e-111,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.8870193473306502,
+        "fpr_at_95": 0.7177700348432056,
+        "id_mean": 0.03815948324162022,
+        "id_std": 0.04287924559487476,
+        "id_median": 0.025455768281287917,
+        "ood_mean": 0.1028000332643916,
+        "ood_std": 0.044122258724806185,
+        "ood_median": 0.0984775538231659,
+        "mann_whitney_u": 16310.0,
+        "mann_whitney_p": 2.5818539352896973e-73,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.2009060618865206,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.3370324960552225,
+        "id_std": 0.5250794850159859,
+        "id_median": 1.2949469320293923,
+        "ood_mean": 0.8258517070076608,
+        "ood_std": 0.3943390737662185,
+        "ood_median": 0.7645837231068131,
+        "mann_whitney_u": 115358.0,
+        "mann_whitney_p": 1.629304382081407e-44,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.2935557387383019,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.2227450069364618,
+        "id_std": 2.2708461768875545,
+        "id_median": 0.49386066546174456,
+        "ood_mean": 0.053725851330705156,
+        "ood_std": 1.312099327676935,
+        "ood_median": -0.3968685632538893,
+        "mann_whitney_u": 101983.0,
+        "mann_whitney_p": 4.414156395954559e-22,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.979849128227153,
+      "fpr_at_95": 0.13588850174216027,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9969797937115981,
+      "best_alpha": 0.8,
+      "mah_only_auroc": 0.9938071916930473
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        503,
+        30
+      ],
+      "ood_shape": [
+        287,
+        30
+      ],
+      "eval_disp_global_mean": 0.2035888943576739,
+      "ood_disp_global_mean": 0.5183578811079127
+    },
+    "elapsed_seconds": 753.0470156669617,
+    "timestamp": "2026-03-19 23:19:52"
+  },
+  {
+    "experiment": "financedocs_cross_seed42",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 42,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9812658980881267,
+        "fpr_at_95": 0.09362435381964389,
+        "id_mean": 0.1698577400110956,
+        "id_std": 0.05725377744927929,
+        "id_median": 0.1511737497069555,
+        "ood_mean": 0.46450433405635094,
+        "ood_std": 0.14853258794797677,
+        "ood_median": 0.4552650742951317,
+        "mann_whitney_u": 36530.0,
+        "mann_whitney_p": 1.794642556891481e-293,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.8935694797735293,
+        "fpr_at_95": 0.580413555427915,
+        "id_mean": 0.020800248859179693,
+        "id_std": 0.025206078990415465,
+        "id_median": 0.009909548339799467,
+        "ood_mean": 0.06986615385246739,
+        "ood_std": 0.044829046487226513,
+        "ood_median": 0.059787251397602756,
+        "mann_whitney_u": 207531.0,
+        "mann_whitney_p": 5.739018782462266e-197,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.3893441782226963,
+        "fpr_at_95": 0.9991384261918438,
+        "id_mean": 1.304029772091224,
+        "id_std": 0.7551198962631753,
+        "id_median": 1.1453827656653242,
+        "ood_mean": 0.997443440907774,
+        "ood_std": 0.4632356582089876,
+        "ood_median": 0.9556024571454796,
+        "mann_whitney_u": 1190730.0,
+        "mann_whitney_p": 3.822382010519575e-17,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.43142641749405103,
+        "fpr_at_95": 0.9994256174612292,
+        "id_mean": 1.9264410213541474,
+        "id_std": 3.561315631012819,
+        "id_median": 0.7168645080394689,
+        "ood_mean": 0.7145448701205732,
+        "ood_std": 1.5275164595889705,
+        "ood_median": 0.33640519716933737,
+        "mann_whitney_u": 1108673.0,
+        "mann_whitney_p": 1.8206205913123106e-07,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9812658980881267,
+      "fpr_at_95": 0.09362435381964389,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9985753261672273,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9985753261672273
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        560,
+        30
+      ],
+      "ood_shape": [
+        3482,
+        30
+      ],
+      "eval_disp_global_mean": 0.1698577400110956,
+      "ood_disp_global_mean": 0.46450433405635083
+    },
+    "elapsed_seconds": 3695.3796651363373,
+    "timestamp": "2026-03-20 00:21:27"
+  },
+  {
+    "experiment": "financedocs_cross_seed123",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 123,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9815059079346845,
+        "fpr_at_95": 0.056289488799540495,
+        "id_mean": 0.1366197466643422,
+        "id_std": 0.05470785092092055,
+        "id_median": 0.1242811421048038,
+        "ood_mean": 0.4110050942547191,
+        "ood_std": 0.1421353486793279,
+        "ood_median": 0.394760138863239,
+        "mann_whitney_u": 36062.0,
+        "mann_whitney_p": 9.19103057494722e-294,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.9644164888815953,
+        "fpr_at_95": 0.20390580126364158,
+        "id_mean": 0.009918546037540157,
+        "id_std": 0.01725428331418525,
+        "id_median": 0.006025350277304007,
+        "ood_mean": 0.0626201528230329,
+        "ood_std": 0.04484501485514511,
+        "ood_median": 0.05077880602513141,
+        "mann_whitney_u": 69385.0,
+        "mann_whitney_p": 1.9710882855684777e-273,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.412833347009108,
+        "fpr_at_95": 0.9859276278001149,
+        "id_mean": 1.0869910770859086,
+        "id_std": 0.577033099879335,
+        "id_median": 1.036101189889464,
+        "ood_mean": 0.9066802976065504,
+        "ood_std": 0.44579119384709087,
+        "ood_median": 0.8539244932140276,
+        "mann_whitney_u": 1144928.0,
+        "mann_whitney_p": 3.328268535414485e-11,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.409616291950439,
+        "fpr_at_95": 0.987363584147042,
+        "id_mean": 1.0593518600405072,
+        "id_std": 2.373642966724797,
+        "id_median": 0.36034276507490026,
+        "ood_mean": 0.3343518141760829,
+        "ood_std": 1.5523307426013497,
+        "ood_median": -0.08685247028323362,
+        "mann_whitney_u": 1151201.0,
+        "mann_whitney_p": 6.155508434985215e-12,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9815059079346845,
+      "fpr_at_95": 0.056289488799540495,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9957711085582999,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9957711085582999
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        560,
+        30
+      ],
+      "ood_shape": [
+        3482,
+        30
+      ],
+      "eval_disp_global_mean": 0.1366197466643422,
+      "ood_disp_global_mean": 0.41100509425471904
+    },
+    "elapsed_seconds": 3686.897251367569,
+    "timestamp": "2026-03-20 01:22:54"
+  },
+  {
+    "experiment": "financedocs_cross_seed456",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 456,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9524795889062114,
+        "fpr_at_95": 0.22113727742676623,
+        "id_mean": 0.26458616909754556,
+        "id_std": 0.09790737374067122,
+        "id_median": 0.2473298988779435,
+        "ood_mean": 0.5643775899064372,
+        "ood_std": 0.15816780338994427,
+        "ood_median": 0.5642043695746672,
+        "mann_whitney_u": 92661.0,
+        "mann_whitney_p": 1.1507434038653525e-259,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.84586444572085,
+        "fpr_at_95": 0.648190695002872,
+        "id_mean": 0.044166084785631,
+        "id_std": 0.04009257422893458,
+        "id_median": 0.02968775884581044,
+        "ood_mean": 0.09969593444925032,
+        "ood_std": 0.05134342365645642,
+        "ood_median": 0.09417047280805077,
+        "mann_whitney_u": 300552.0,
+        "mann_whitney_p": 1.4004287481619094e-152,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.40687874374333305,
+        "fpr_at_95": 0.9781734635267088,
+        "id_mean": 1.1942298877740294,
+        "id_std": 0.5563966520528025,
+        "id_median": 1.0675645313048303,
+        "ood_mean": 1.003377603679288,
+        "ood_std": 0.5333900198193627,
+        "ood_median": 0.9579247645630127,
+        "mann_whitney_u": 1156539.0,
+        "mann_whitney_p": 1.3978444621459994e-12,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.488473886108148,
+        "fpr_at_95": 0.9735784032165422,
+        "id_mean": 0.949829056488082,
+        "id_std": 1.9861200995169896,
+        "id_median": 0.3217338698815764,
+        "ood_mean": 0.8312910391475421,
+        "ood_std": 1.8179307889009926,
+        "ood_median": 0.36822544111849353,
+        "mann_whitney_u": 997435.0,
+        "mann_whitney_p": 0.38057350079703556,
+        "significant": false
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9524795889062114,
+      "fpr_at_95": 0.22113727742676623,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9987445638795438,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9987445638795438
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        560,
+        30
+      ],
+      "ood_shape": [
+        3482,
+        30
+      ],
+      "eval_disp_global_mean": 0.26458616909754556,
+      "ood_disp_global_mean": 0.5643775899064373
+    },
+    "elapsed_seconds": 3673.690082550049,
+    "timestamp": "2026-03-20 02:24:08"
+  },
+  {
+    "experiment": "financedocs_cross_seed789",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 789,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9435992245835727,
+        "fpr_at_95": 0.3271108558299828,
+        "id_mean": 0.17409127497788182,
+        "id_std": 0.0745687131435388,
+        "id_median": 0.15341194114724666,
+        "ood_mean": 0.39358690525715806,
+        "ood_std": 0.13867658239257266,
+        "ood_median": 0.37237526751300726,
+        "mann_whitney_u": 109977.0,
+        "mann_whitney_p": 1.1753104356762188e-249,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.8495199803068845,
+        "fpr_at_95": 0.7739804709936818,
+        "id_mean": 0.02215674563127223,
+        "id_std": 0.03578127644773804,
+        "id_median": 0.008605122840998031,
+        "ood_mean": 0.06124300718280475,
+        "ood_std": 0.05121882148966571,
+        "ood_median": 0.04599148709087432,
+        "mann_whitney_u": 293424.0,
+        "mann_whitney_p": 8.852161382887379e-156,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.5353563223106588,
+        "fpr_at_95": 0.977599080987938,
+        "id_mean": 1.2195469040058649,
+        "id_std": 0.615508989942725,
+        "id_median": 0.9865245748900816,
+        "ood_mean": 1.2304194043774217,
+        "ood_std": 0.5769578371117705,
+        "ood_median": 1.1967983902926704,
+        "mann_whitney_u": 906018.0,
+        "mann_whitney_p": 0.007150666070114063,
+        "significant": false
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.5623471732173627,
+        "fpr_at_95": 0.9549109707064906,
+        "id_mean": 1.25769120274918,
+        "id_std": 2.3578003002259256,
+        "id_median": 0.2533530831924662,
+        "ood_mean": 1.4590883880760943,
+        "ood_std": 2.196250759827794,
+        "ood_median": 0.9570317854021713,
+        "mann_whitney_u": 853388.0,
+        "mann_whitney_p": 2.1047393752298243e-06,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9435992245835727,
+      "fpr_at_95": 0.3271108558299828,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9947761959465004,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9947761959465004
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        560,
+        30
+      ],
+      "ood_shape": [
+        3482,
+        30
+      ],
+      "eval_disp_global_mean": 0.17409127497788182,
+      "ood_disp_global_mean": 0.3935869052571581
+    },
+    "elapsed_seconds": 3678.1619322299957,
+    "timestamp": "2026-03-20 03:25:26"
+  },
+  {
+    "experiment": "financedocs_cross_seed1024",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 1024,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.9515333962418973,
+        "fpr_at_95": 0.18696151636990235,
+        "id_mean": 0.13532555855130585,
+        "id_std": 0.056518862580900484,
+        "id_median": 0.13113738513814527,
+        "ood_mean": 0.3507668511064085,
+        "ood_std": 0.1279519230690813,
+        "ood_median": 0.3504336598105724,
+        "mann_whitney_u": 94506.0,
+        "mann_whitney_p": 1.370476053878053e-258,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.8784529621728071,
+        "fpr_at_95": 0.45203905801263644,
+        "id_mean": 0.014806118089897659,
+        "id_std": 0.018385554392536602,
+        "id_median": 0.009470823429195158,
+        "ood_mean": 0.059425190458614045,
+        "ood_std": 0.045373046385383954,
+        "ood_median": 0.047363915148551664,
+        "mann_whitney_u": 237007.0,
+        "mann_whitney_p": 2.7696832169459317e-182,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.2757743907442357,
+        "fpr_at_95": 0.9956921309592188,
+        "id_mean": 1.2924494839389633,
+        "id_std": 0.4962530699775869,
+        "id_median": 1.216922251580562,
+        "ood_mean": 0.9069938486224062,
+        "ood_std": 0.3757102353834898,
+        "ood_median": 0.8682630596543148,
+        "mann_whitney_u": 1412182.0,
+        "mann_whitney_p": 3.0404439738927574e-65,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.295876241076557,
+        "fpr_at_95": 0.9936817920735209,
+        "id_mean": 1.2566905826731407,
+        "id_std": 1.9280391964442347,
+        "id_median": 0.8041762055529516,
+        "ood_mean": 0.1267034663514567,
+        "ood_std": 1.140646143844079,
+        "ood_median": -0.13682207790419576,
+        "mann_whitney_u": 1372985.0,
+        "mann_whitney_p": 2.2120578674396173e-54,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.9515333962418973,
+      "fpr_at_95": 0.18696151636990235,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9975696438828259,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9975696438828259
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        560,
+        30
+      ],
+      "ood_shape": [
+        3482,
+        30
+      ],
+      "eval_disp_global_mean": 0.13532555855130585,
+      "ood_disp_global_mean": 0.3507668511064085
+    },
+    "elapsed_seconds": 3687.8491361141205,
+    "timestamp": "2026-03-20 04:26:54"
+  },
+  {
+    "experiment": "tobacco_intra_seed42",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 42,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.8267615040406064,
+        "fpr_at_95": 0.6695652173913044,
+        "id_mean": 0.23711816881433515,
+        "id_std": 0.13362211032779567,
+        "id_median": 0.2159071648557517,
+        "ood_mean": 0.4405759047215172,
+        "ood_std": 0.18359260208199749,
+        "ood_median": 0.3858972205666972,
+        "mann_whitney_u": 25939.0,
+        "mann_whitney_p": 3.1626461817739056e-49,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.5379883790823483,
+        "fpr_at_95": 0.9869565217391304,
+        "id_mean": 0.09389822418410965,
+        "id_std": 0.10631529696713149,
+        "id_median": 0.051822548343230766,
+        "ood_mean": 0.07646733642971433,
+        "ood_std": 0.06559252924169824,
+        "ood_median": 0.056220449307736814,
+        "mann_whitney_u": 69177.0,
+        "mann_whitney_p": 0.086447167281993,
+        "significant": false
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.15984772590663193,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.7044012311715808,
+        "id_std": 0.8728879529788982,
+        "id_median": 1.421289893399288,
+        "ood_mean": 0.8067790289873077,
+        "ood_std": 0.539255464524641,
+        "ood_median": 0.7499195773948981,
+        "mann_whitney_u": 125796.0,
+        "mann_whitney_p": 3.4064882362576243e-53,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.21216189140452818,
+        "fpr_at_95": 1.0,
+        "id_mean": 3.04250142948881,
+        "id_std": 4.279060914840232,
+        "id_median": 1.3845275215935757,
+        "ood_mean": 0.11981240719311904,
+        "ood_std": 1.784160374576973,
+        "ood_median": -0.4265688292281635,
+        "mann_whitney_u": 117963.0,
+        "mann_whitney_p": 1.3700232784571837e-38,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.8267615040406064,
+      "fpr_at_95": 0.6695652173913044,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.975095171308355,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.975095171308355
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        651,
+        30
+      ],
+      "ood_shape": [
+        230,
+        30
+      ],
+      "eval_disp_global_mean": 0.23711816881433512,
+      "ood_disp_global_mean": 0.44057590472151725
+    },
+    "elapsed_seconds": 842.3029396533966,
+    "timestamp": "2026-03-20 04:40:57"
+  },
+  {
+    "experiment": "tobacco_intra_seed123",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 123,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.7623589127095439,
+        "fpr_at_95": 0.7130434782608696,
+        "id_mean": 0.1713042328200406,
+        "id_std": 0.11326456728948461,
+        "id_median": 0.12349184479780119,
+        "ood_mean": 0.32599712154279,
+        "ood_std": 0.22784298235426304,
+        "ood_median": 0.2565899088226283,
+        "mann_whitney_u": 35582.0,
+        "mann_whitney_p": 2.3859374172904456e-32,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.6159420289855073,
+        "fpr_at_95": 0.9956521739130435,
+        "id_mean": 0.06975390328960339,
+        "id_std": 0.10440171617284116,
+        "id_median": 0.011650794698005411,
+        "ood_mean": 0.04919185791429158,
+        "ood_std": 0.06247816641894325,
+        "ood_median": 0.029962108266895437,
+        "mann_whitney_u": 57505.0,
+        "mann_whitney_p": 1.669067694652896e-07,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.41737126828290927,
+        "fpr_at_95": 0.9869565217391304,
+        "id_mean": 1.8161017296126007,
+        "id_std": 1.0352328248949172,
+        "id_median": 1.6076068732169415,
+        "ood_mean": 1.450612371569475,
+        "ood_std": 0.8705909382140425,
+        "ood_median": 1.4129542924547351,
+        "mann_whitney_u": 87237.0,
+        "mann_whitney_p": 0.00019203221667566625,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.4447939624657717,
+        "fpr_at_95": 0.9478260869565217,
+        "id_mean": 3.6715445545781855,
+        "id_std": 4.5044818640595,
+        "id_median": 2.2910813554783527,
+        "ood_mean": 2.5245632476163244,
+        "ood_std": 3.4037584991213072,
+        "ood_median": 1.694741260301444,
+        "mann_whitney_u": 83131.0,
+        "mann_whitney_p": 0.012718406024750542,
+        "significant": false
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.7623589127095439,
+      "fpr_at_95": 0.7130434782608696,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9617244373205102,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9617244373205102
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        651,
+        30
+      ],
+      "ood_shape": [
+        230,
+        30
+      ],
+      "eval_disp_global_mean": 0.1713042328200406,
+      "ood_disp_global_mean": 0.3259971215427901
+    },
+    "elapsed_seconds": 842.753809928894,
+    "timestamp": "2026-03-20 04:55:00"
+  },
+  {
+    "experiment": "tobacco_intra_seed456",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 456,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.8210111534094703,
+        "fpr_at_95": 0.6869565217391305,
+        "id_mean": 0.25182939858844233,
+        "id_std": 0.13750912530628506,
+        "id_median": 0.20659968081728203,
+        "ood_mean": 0.4321158300060044,
+        "ood_std": 0.15081786514606238,
+        "ood_median": 0.4229267241384893,
+        "mann_whitney_u": 26800.0,
+        "mann_whitney_p": 1.4303213826168136e-47,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.5113404127429373,
+        "fpr_at_95": 1.0,
+        "id_mean": 0.11864778016585213,
+        "id_std": 0.15263432725753887,
+        "id_median": 0.044324864886402374,
+        "ood_mean": 0.06669991282848427,
+        "ood_std": 0.05887641370806999,
+        "ood_median": 0.047079561548699446,
+        "mann_whitney_u": 73167.0,
+        "mann_whitney_p": 0.6088640334243274,
+        "significant": false
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.15040406064248982,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.962873304937211,
+        "id_std": 0.9602428379086512,
+        "id_median": 1.8086005050120402,
+        "ood_mean": 0.8699482394713272,
+        "ood_std": 0.590529961942292,
+        "ood_median": 0.7400715787055321,
+        "mann_whitney_u": 127210.0,
+        "mann_whitney_p": 4.356316896909883e-56,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.19552527883523677,
+        "fpr_at_95": 1.0,
+        "id_mean": 4.237037466701481,
+        "id_std": 5.083938700937245,
+        "id_median": 2.1084199701160315,
+        "ood_mean": 0.5125950537038308,
+        "ood_std": 2.137132961033487,
+        "ood_median": -0.24483832376200998,
+        "mann_whitney_u": 120454.0,
+        "mann_whitney_p": 5.670128587599961e-43,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.8210111534094703,
+      "fpr_at_95": 0.6869565217391305,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9701863354037268,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9701863354037268
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        651,
+        30
+      ],
+      "ood_shape": [
+        230,
+        30
+      ],
+      "eval_disp_global_mean": 0.2518293985884424,
+      "ood_disp_global_mean": 0.4321158300060045
+    },
+    "elapsed_seconds": 846.1522448062897,
+    "timestamp": "2026-03-20 05:09:06"
+  },
+  {
+    "experiment": "tobacco_intra_seed789",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 789,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.8595137914913511,
+        "fpr_at_95": 0.6652173913043479,
+        "id_mean": 0.18428180656696946,
+        "id_std": 0.12850205485532165,
+        "id_median": 0.12222214739734637,
+        "ood_mean": 0.3928145365261254,
+        "ood_std": 0.17874554341029553,
+        "ood_median": 0.3636416060616513,
+        "mann_whitney_u": 21035.0,
+        "mann_whitney_p": 3.2812786941957824e-59,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.6286448941427902,
+        "fpr_at_95": 0.991304347826087,
+        "id_mean": 0.06259934931026756,
+        "id_std": 0.0943339616323311,
+        "id_median": 0.010302505146703334,
+        "ood_mean": 0.04393096555377387,
+        "ood_std": 0.04576958838173021,
+        "ood_median": 0.031322799347106745,
+        "mann_whitney_u": 55603.0,
+        "mann_whitney_p": 6.3906350646318864e-09,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.15844520136245238,
+        "fpr_at_95": 1.0,
+        "id_mean": 2.110785014740448,
+        "id_std": 1.2050023675363128,
+        "id_median": 1.8936703540680422,
+        "ood_mean": 0.7899319770617003,
+        "ood_std": 0.515912959437056,
+        "ood_median": 0.7583749313892858,
+        "mann_whitney_u": 126006.0,
+        "mann_whitney_p": 1.2811444415635086e-53,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.19782274761236895,
+        "fpr_at_95": 1.0,
+        "id_mean": 5.662830197911121,
+        "id_std": 6.398424053538633,
+        "id_median": 3.894634919769609,
+        "ood_mean": 0.3898650820548291,
+        "ood_std": 1.5958878579517461,
+        "ood_median": -0.05862600824469233,
+        "mann_whitney_u": 120110.0,
+        "mann_whitney_p": 2.3625817693136753e-42,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.8595137914913511,
+      "fpr_at_95": 0.6652173913043479,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9662859814332465,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9662859814332465
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        651,
+        30
+      ],
+      "ood_shape": [
+        230,
+        30
+      ],
+      "eval_disp_global_mean": 0.18428180656696944,
+      "ood_disp_global_mean": 0.3928145365261254
+    },
+    "elapsed_seconds": 813.9399809837341,
+    "timestamp": "2026-03-20 05:22:40"
+  },
+  {
+    "experiment": "tobacco_intra_seed1024",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 1024,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.8268416483002738,
+        "fpr_at_95": 0.6217391304347826,
+        "id_mean": 0.22304938359900423,
+        "id_std": 0.11887957282979905,
+        "id_median": 0.1861216330134138,
+        "ood_mean": 0.39532588658214846,
+        "ood_std": 0.1700379263141431,
+        "ood_median": 0.36732364691814534,
+        "mann_whitney_u": 25927.0,
+        "mann_whitney_p": 2.997626493816074e-49,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.5762505843852268,
+        "fpr_at_95": 0.9956521739130435,
+        "id_mean": 0.06666779289114716,
+        "id_std": 0.09085894369924076,
+        "id_median": 0.02039553094055312,
+        "ood_mean": 0.053558373184805226,
+        "ood_std": 0.04942582600620559,
+        "ood_median": 0.03514760905143616,
+        "mann_whitney_u": 63448.0,
+        "mann_whitney_p": 0.0005787163069486523,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.19770253122286782,
+        "fpr_at_95": 1.0,
+        "id_mean": 1.7145831515346455,
+        "id_std": 0.9846305760620199,
+        "id_median": 1.546267966700733,
+        "ood_mean": 0.7702409883667493,
+        "ood_std": 0.5247715461294489,
+        "ood_median": 0.699355337899729,
+        "mann_whitney_u": 120128.0,
+        "mann_whitney_p": 2.1931632196651632e-42,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.24644359847725905,
+        "fpr_at_95": 0.9956521739130435,
+        "id_mean": 3.5755078497974777,
+        "id_std": 4.524706016070564,
+        "id_median": 2.211041290827829,
+        "ood_mean": 0.28741149234419094,
+        "ood_std": 1.7178295022526917,
+        "ood_median": -0.17636295635249954,
+        "mann_whitney_u": 112830.0,
+        "mann_whitney_p": 2.5185759587748294e-30,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.8268416483002738,
+      "fpr_at_95": 0.6217391304347826,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.9781072597341882,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.9781072597341882
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        651,
+        30
+      ],
+      "ood_shape": [
+        230,
+        30
+      ],
+      "eval_disp_global_mean": 0.2230493835990042,
+      "ood_disp_global_mean": 0.3953258865821485
+    },
+    "elapsed_seconds": 834.4626047611237,
+    "timestamp": "2026-03-20 05:36:35"
+  },
+  {
+    "experiment": "tobacco_cross_seed42",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 42,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.7019950712899046,
+        "fpr_at_95": 0.76590421729807,
+        "id_mean": 0.29331352747286016,
+        "id_std": 0.18658035215048405,
+        "id_median": 0.21105989800186245,
+        "ood_mean": 0.46401448549440777,
+        "ood_std": 0.2494625348114597,
+        "ood_median": 0.4401160397781968,
+        "mann_whitney_u": 581171.0,
+        "mann_whitney_p": 2.357179562303688e-61,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.5842444336649565,
+        "fpr_at_95": 0.9810578984989278,
+        "id_mean": 0.13745944548058892,
+        "id_std": 0.1793473372083603,
+        "id_median": 0.04629927954386048,
+        "ood_mean": 0.13761504982671724,
+        "ood_std": 0.1325433094285152,
+        "ood_median": 0.10273833223278764,
+        "mann_whitney_u": 810809.0,
+        "mann_whitney_p": 5.47657669102546e-12,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.3318628903818366,
+        "fpr_at_95": 0.997855611150822,
+        "id_mean": 1.270047496792675,
+        "id_std": 0.6647798589082629,
+        "id_median": 1.0612824925983184,
+        "ood_mean": 0.8534180107771112,
+        "ood_std": 0.46576000955051106,
+        "ood_median": 0.8915167643333847,
+        "mann_whitney_u": 1303005.0,
+        "mann_whitney_p": 4.653691592723878e-43,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.4044659897467242,
+        "fpr_at_95": 0.9974982130092923,
+        "id_mean": 1.1519670082038544,
+        "id_std": 2.925051969109851,
+        "id_median": 0.04763618667387659,
+        "ood_mean": -0.0538365216289792,
+        "ood_std": 1.2985277610011776,
+        "ood_median": -0.2996374897914409,
+        "mann_whitney_u": 1161414.0,
+        "mann_whitney_p": 5.438759306295557e-15,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.7019950712899046,
+      "fpr_at_95": 0.76590421729807,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.8472899785971328,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.8472899785971328
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        697,
+        30
+      ],
+      "ood_shape": [
+        2798,
+        30
+      ],
+      "eval_disp_global_mean": 0.29331352747286016,
+      "ood_disp_global_mean": 0.46401448549440777
+    },
+    "elapsed_seconds": 3206.0357434749603,
+    "timestamp": "2026-03-20 06:30:01"
+  },
+  {
+    "experiment": "tobacco_cross_seed123",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 123,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.6884149674444647,
+        "fpr_at_95": 0.7730521801286633,
+        "id_mean": 0.18452516138035616,
+        "id_std": 0.1022629001014203,
+        "id_median": 0.16356636314921208,
+        "ood_mean": 0.2870610069794988,
+        "ood_std": 0.16577559949463647,
+        "ood_median": 0.2753573222906447,
+        "mann_whitney_u": 607655.0,
+        "mann_whitney_p": 1.2855886179583645e-53,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.4916649830838383,
+        "fpr_at_95": 0.9463902787705504,
+        "id_mean": 0.0780551750202279,
+        "id_std": 0.08182212716615456,
+        "id_median": 0.04395017891533013,
+        "ood_mean": 0.07094461314933356,
+        "ood_std": 0.08199697749870319,
+        "ood_median": 0.041478529250536696,
+        "mann_whitney_u": 991358.0,
+        "mann_whitney_p": 0.495284080435472,
+        "significant": false
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.23470289805282107,
+        "fpr_at_95": 0.992494639027877,
+        "id_mean": 2.454895605895338,
+        "id_std": 0.9272491246720856,
+        "id_median": 2.4042782409294112,
+        "ood_mean": 1.5650390565998886,
+        "ood_std": 0.8292095566234048,
+        "ood_median": 1.4665292430739831,
+        "mann_whitney_u": 1492487.0,
+        "mann_whitney_p": 1.8043881063196822e-104,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.25980998930369403,
+        "fpr_at_95": 0.9914224446032881,
+        "id_mean": 6.514494906795204,
+        "id_std": 4.964388599381217,
+        "id_median": 5.269440746881074,
+        "ood_mean": 2.8636171298786444,
+        "ood_std": 3.8257717633769266,
+        "ood_median": 1.6519551110424144,
+        "mann_whitney_u": 1443523.0,
+        "mann_whitney_p": 5.590112570134042e-86,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.6884149674444647,
+      "fpr_at_95": 0.7730521801286633,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.8206148478673534,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.8206148478673534
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        697,
+        30
+      ],
+      "ood_shape": [
+        2798,
+        30
+      ],
+      "eval_disp_global_mean": 0.18452516138035616,
+      "ood_disp_global_mean": 0.2870610069794988
+    },
+    "elapsed_seconds": 3190.127829313278,
+    "timestamp": "2026-03-20 07:23:11"
+  },
+  {
+    "experiment": "tobacco_cross_seed456",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 456,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.6393652773091663,
+        "fpr_at_95": 0.7616154395997141,
+        "id_mean": 0.2306909629684294,
+        "id_std": 0.140279617183244,
+        "id_median": 0.1881348472659131,
+        "ood_mean": 0.34061750937616664,
+        "ood_std": 0.21720659819218338,
+        "ood_median": 0.301884429829936,
+        "mann_whitney_u": 703312.0,
+        "mann_whitney_p": 4.06342981597186e-30,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.5102778885922821,
+        "fpr_at_95": 0.9771265189421015,
+        "id_mean": 0.09847477324116005,
+        "id_std": 0.13595864357853954,
+        "id_median": 0.03472888646121593,
+        "ood_mean": 0.09686736204304629,
+        "ood_std": 0.129815708357572,
+        "ood_median": 0.0428586650672773,
+        "mann_whitney_u": 955059.0,
+        "mann_whitney_p": 0.40040990590028414,
+        "significant": false
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.2465447239932602,
+        "fpr_at_95": 0.9985704074338814,
+        "id_mean": 1.8362615501823647,
+        "id_std": 0.8713550495825161,
+        "id_median": 1.8094650228271822,
+        "ood_mean": 1.1330099811312389,
+        "ood_std": 0.5885267244547144,
+        "ood_median": 1.094371194899637,
+        "mann_whitney_u": 1469393.0,
+        "mann_whitney_p": 1.6051468484401766e-95,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.2782834223666628,
+        "fpr_at_95": 0.9985704074338814,
+        "id_mean": 3.6081075464341974,
+        "id_std": 4.308617232573713,
+        "id_median": 2.264934508621141,
+        "ood_mean": 0.9206797706506973,
+        "ood_std": 2.0932613052549365,
+        "ood_median": 0.2922038676508101,
+        "mann_whitney_u": 1407496.0,
+        "mann_whitney_p": 1.533095172742021e-73,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.6393652773091663,
+      "fpr_at_95": 0.7616154395997141,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.8619935535015275,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.8619935535015275
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        697,
+        30
+      ],
+      "ood_shape": [
+        2798,
+        30
+      ],
+      "eval_disp_global_mean": 0.2306909629684294,
+      "ood_disp_global_mean": 0.34061750937616664
+    },
+    "elapsed_seconds": 3189.670098543167,
+    "timestamp": "2026-03-20 08:16:21"
+  },
+  {
+    "experiment": "tobacco_cross_seed789",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 789,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.8080279724295791,
+        "fpr_at_95": 0.59578270192995,
+        "id_mean": 0.18386727994337382,
+        "id_std": 0.11749475180830339,
+        "id_median": 0.15394865004445393,
+        "ood_mean": 0.3984073726968157,
+        "ood_std": 0.23809738005889378,
+        "ood_median": 0.36050946799360495,
+        "mann_whitney_u": 374385.0,
+        "mann_whitney_p": 3.8052021716902024e-140,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.7728629693478535,
+        "fpr_at_95": 0.7337383845604003,
+        "id_mean": 0.03604148969888411,
+        "id_std": 0.05448402389930595,
+        "id_median": 0.013496262089647338,
+        "ood_mean": 0.10852684672626865,
+        "ood_std": 0.10213428362869006,
+        "ood_median": 0.08209757196063325,
+        "mann_whitney_u": 442964.0,
+        "mann_whitney_p": 2.1164729753293678e-110,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.3702562703632334,
+        "fpr_at_95": 0.9706933523945676,
+        "id_mean": 1.715864860213827,
+        "id_std": 0.8043843359023884,
+        "id_median": 1.7485535821244478,
+        "ood_mean": 1.3406227748485917,
+        "ood_std": 0.7979770902560054,
+        "ood_median": 1.3084233173719317,
+        "mann_whitney_u": 1228130.0,
+        "mann_whitney_p": 2.5304367828589438e-26,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.35523272926039606,
+        "fpr_at_95": 0.9817726947819871,
+        "id_mean": 3.1542614668328564,
+        "id_std": 3.3048801362059175,
+        "id_median": 2.882189271943659,
+        "ood_mean": 1.672288104083756,
+        "ood_std": 2.7349807602839165,
+        "ood_median": 0.9481191317897302,
+        "mann_whitney_u": 1257429.0,
+        "mann_whitney_p": 2.2988315543272722e-32,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.8080279724295791,
+      "fpr_at_95": 0.59578270192995,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.8894245018218587,
+      "best_alpha": 0.9,
+      "mah_only_auroc": 0.8883917904057315
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        697,
+        30
+      ],
+      "ood_shape": [
+        2798,
+        30
+      ],
+      "eval_disp_global_mean": 0.18386727994337385,
+      "ood_disp_global_mean": 0.3984073726968157
+    },
+    "elapsed_seconds": 3191.394920349121,
+    "timestamp": "2026-03-20 09:09:32"
+  },
+  {
+    "experiment": "tobacco_cross_seed1024",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 1024,
+    "num_masks": 30,
+    "individual_features": {
+      "mean": {
+        "name": "FSP_mean",
+        "auroc": 0.6755024853784677,
+        "fpr_at_95": 0.6086490350250179,
+        "id_mean": 0.18361788124124231,
+        "id_std": 0.13272058260929837,
+        "id_median": 0.1474975871685758,
+        "ood_mean": 0.3489744390363042,
+        "ood_std": 0.25068305511920724,
+        "ood_median": 0.3064887626153368,
+        "mann_whitney_u": 632837.0,
+        "mann_whitney_p": 9.337847848465639e-47,
+        "significant": true
+      },
+      "variance": {
+        "name": "FSP_variance",
+        "auroc": 0.5806714777823472,
+        "fpr_at_95": 0.9260185847033595,
+        "id_mean": 0.053036572353011076,
+        "id_std": 0.07250682220785133,
+        "id_median": 0.019889322532336898,
+        "ood_mean": 0.06904023029177653,
+        "ood_std": 0.07839569876754778,
+        "ood_median": 0.04007884741925027,
+        "mann_whitney_u": 817777.0,
+        "mann_whitney_p": 4.102948615832948e-11,
+        "significant": true
+      },
+      "skewness": {
+        "name": "FSP_skewness",
+        "auroc": 0.3150272330205117,
+        "fpr_at_95": 0.9949964260185847,
+        "id_mean": 1.709853376166472,
+        "id_std": 0.9722263643606491,
+        "id_median": 1.4351799818958813,
+        "ood_mean": 1.0629909080012492,
+        "ood_std": 0.6613927761307031,
+        "ood_median": 1.0388045623983593,
+        "mann_whitney_u": 1335838.0,
+        "mann_whitney_p": 9.667642396483629e-52,
+        "significant": true
+      },
+      "kurtosis": {
+        "name": "FSP_kurtosis",
+        "auroc": 0.3411731888836359,
+        "fpr_at_95": 0.9942816297355254,
+        "id_mean": 3.4432992359876478,
+        "id_std": 4.623697556881409,
+        "id_median": 1.5875351029196088,
+        "ood_mean": 0.9695790282912727,
+        "ood_std": 2.494357491092801,
+        "ood_median": 0.26810033590740723,
+        "mann_whitney_u": 1284848.0,
+        "mann_whitney_p": 1.309848212425509e-38,
+        "significant": true
+      }
+    },
+    "combined": {
+      "name": "FSP_combined",
+      "auroc": 0.6755024853784677,
+      "fpr_at_95": 0.6086490350250179,
+      "selected_features": [
+        "mean"
+      ]
+    },
+    "fsp_variance_mah_combined": {
+      "auroc": 0.882860579856692,
+      "best_alpha": 1.0,
+      "mah_only_auroc": 0.882860579856692
+    },
+    "displacement_stats": {
+      "eval_shape": [
+        697,
+        30
+      ],
+      "ood_shape": [
+        2798,
+        30
+      ],
+      "eval_disp_global_mean": 0.18361788124124231,
+      "ood_disp_global_mean": 0.3489744390363042
+    },
+    "elapsed_seconds": 3192.8107228279114,
+    "timestamp": "2026-03-20 10:02:45"
+  }
+]

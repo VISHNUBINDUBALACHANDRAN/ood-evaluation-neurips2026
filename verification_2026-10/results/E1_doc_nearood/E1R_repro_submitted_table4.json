@@ -1,0 +1,175 @@
+{
+  "design": "submitted Table 4: intra model (trained on Letter AND Memo), ID=20% Letter, OOD=all Memo",
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "seeds": {
+    "42": {
+      "n_id": 114,
+      "n_ood": 620,
+      "mahalanobis": {
+        "auroc": 0.49575551782682514,
+        "fpr95": 0.9370967741935484
+      },
+      "knn_k50": {
+        "auroc": 0.5823288058856819,
+        "fpr95": 0.853225806451613
+      },
+      "stored_original": {
+        "mahalanobis": 0.4957838143746463,
+        "knn": 0.5823712507074137,
+        "n_id_eval": 114,
+        "n_ood": 620
+      },
+      "abs_diff": {
+        "mahalanobis": 2.8296547821160534e-05,
+        "knn": 4.2444821731768556e-05
+      },
+      "GATE_PASS": true,
+      "load": {
+        "n_tensors_loaded": 216,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed42/best_model/model.safetensors",
+        "weights_sha256": "e73c37beb3fc1b3744280b38ee7534e7ad1bd4fbe4abf997b2e4e0782cbcd22b",
+        "num_labels": 9
+      },
+      "seconds": 112.1719970703125
+    },
+    "123": {
+      "n_id": 114,
+      "n_ood": 620,
+      "mahalanobis": {
+        "auroc": 0.5292586304470854,
+        "fpr95": 0.964516129032258
+      },
+      "knn_k50": {
+        "auroc": 0.6864459535936616,
+        "fpr95": 0.9338709677419355
+      },
+      "stored_original": {
+        "mahalanobis": 0.5292869269949066,
+        "knn": 0.6864035087719299,
+        "n_id_eval": 114,
+        "n_ood": 620
+      },
+      "abs_diff": {
+        "mahalanobis": 2.8296547821216045e-05,
+        "knn": 4.2444821731657534e-05
+      },
+      "GATE_PASS": true,
+      "load": {
+        "n_tensors_loaded": 216,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed123/best_model/model.safetensors",
+        "weights_sha256": "96a4be1bab7a9c847f1dd12643d6df51a7d0ccda6b59d7c0bb2517f7e52d01fc",
+        "num_labels": 9
+      },
+      "seconds": 126.67091107368469
+    },
+    "456": {
+      "n_id": 114,
+      "n_ood": 620,
+      "mahalanobis": {
+        "auroc": 0.7192699490662139,
+        "fpr95": 0.9016129032258065
+      },
+      "knn_k50": {
+        "auroc": 0.8285795132993775,
+        "fpr95": 0.7935483870967742
+      },
+      "stored_original": {
+        "mahalanobis": 0.7192558007923033,
+        "knn": 0.8285795132993776,
+        "n_id_eval": 114,
+        "n_ood": 620
+      },
+      "abs_diff": {
+        "mahalanobis": 1.4148273910552511e-05,
+        "knn": 1.1102230246251565e-16
+      },
+      "GATE_PASS": true,
+      "load": {
+        "n_tensors_loaded": 216,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed456/best_model/model.safetensors",
+        "weights_sha256": "2703f690099281ee1c00d160ce0bbc0e66352fdd397c7aa7750340fba119571e",
+        "num_labels": 9
+      },
+      "seconds": 136.36744499206543
+    },
+    "789": {
+      "n_id": 114,
+      "n_ood": 620,
+      "mahalanobis": {
+        "auroc": 0.7224108658743633,
+        "fpr95": 0.8806451612903226
+      },
+      "knn_k50": {
+        "auroc": 0.7867430673457839,
+        "fpr95": 0.9096774193548387
+      },
+      "stored_original": {
+        "mahalanobis": 0.7223825693265421,
+        "knn": 0.7867572156196945,
+        "n_id_eval": 114,
+        "n_ood": 620
+      },
+      "abs_diff": {
+        "mahalanobis": 2.8296547821216045e-05,
+        "knn": 1.4148273910552511e-05
+      },
+      "GATE_PASS": true,
+      "load": {
+        "n_tensors_loaded": 216,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed789/best_model/model.safetensors",
+        "weights_sha256": "de94fb256d3097b3451ee98833aba06c7e8d93e18000e1227260b4db5f375b94",
+        "num_labels": 9
+      },
+      "seconds": 148.44905018806458
+    },
+    "1024": {
+      "n_id": 114,
+      "n_ood": 620,
+      "mahalanobis": {
+        "auroc": 0.30631013016412,
+        "fpr95": 0.9758064516129032
+      },
+      "knn_k50": {
+        "auroc": 0.28471986417657047,
+        "fpr95": 0.9774193548387097
+      },
+      "stored_original": {
+        "mahalanobis": 0.30631013016412,
+        "knn": 0.28471986417657047,
+        "n_id_eval": 114,
+        "n_ood": 620
+      },
+      "abs_diff": {
+        "mahalanobis": 0.0,
+        "knn": 0.0
+      },
+      "GATE_PASS": true,
+      "load": {
+        "n_tensors_loaded": 216,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed1024/best_model/model.safetensors",
+        "weights_sha256": "56ef0ef020057a608f13dcd798cbb15e672d8db47706ae3f75c0a2a51a6e4ebb",
+        "num_labels": 9
+      },
+      "seconds": 153.43786430358887
+    }
+  },
+  "ALL_GATES_PASS": true
+}

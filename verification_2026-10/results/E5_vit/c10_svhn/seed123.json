@@ -1,0 +1,167 @@
+{
+  "config": "c10_svhn",
+  "seed": 123,
+  "num_labels": 10,
+  "load": {
+    "n_tensors_loaded": 200,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/vit_checkpoints/cifar10_svhn_seed123/best_model/model.safetensors",
+    "weights_sha256": "5157c7adc29094234c54e32677991bd0237c25a536a02a17ce15ec67bfa107cf"
+  },
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "n_full": {
+    "train": 45000,
+    "eval": 5000,
+    "ood": 10000
+  },
+  "subsample_sizes": {
+    "train": 3000,
+    "eval": 1000,
+    "ood": 1000
+  },
+  "masks": {
+    "n": 25,
+    "heads_zeroed": [
+      14,
+      28
+    ]
+  },
+  "scores": {
+    "maha_unmasked": {
+      "auroc": 0.9992840000000001,
+      "fpr95": 0.001
+    },
+    "knn10_unmasked": {
+      "auroc": 0.995814,
+      "fpr95": 0.021
+    },
+    "mahAHM_asym": {
+      "auroc": 0.851827,
+      "fpr95": 0.86
+    },
+    "mahAHM_sym": {
+      "auroc": 0.995715,
+      "fpr95": 0.014
+    },
+    "knnAHM10_asym": {
+      "auroc": 0.911929,
+      "fpr95": 0.761
+    },
+    "knnAHM10_sym": {
+      "auroc": 0.97482,
+      "fpr95": 0.071
+    },
+    "mahAvgAvg_avg_pad_unmasked": {
+      "auroc": 0.997881,
+      "fpr95": 0.002
+    },
+    "mahAvgAvg_AHM_avg_pad_asym": {
+      "auroc": 0.997056,
+      "fpr95": 0.005
+    },
+    "mahAvgAvg_AHM_avg_pad_sym": {
+      "auroc": 0.9885,
+      "fpr95": 0.026
+    },
+    "ahss": {
+      "auroc": 0.9851649999999998,
+      "fpr95": 0.038
+    },
+    "mahAHM_top5_sym": {
+      "auroc": 0.998576,
+      "fpr95": 0.005
+    },
+    "mahAHM_top5_asym": {
+      "auroc": 0.999163,
+      "fpr95": 0.005
+    },
+    "knnAHM10_top5_sym": {
+      "auroc": 0.9933109999999999,
+      "fpr95": 0.025
+    },
+    "knnAHM10_top5_asym": {
+      "auroc": 0.994275,
+      "fpr95": 0.018
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_sym": {
+      "auroc": 0.9928429999999999,
+      "fpr95": 0.021
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_asym": {
+      "auroc": 0.9963039999999999,
+      "fpr95": 0.006
+    }
+  },
+  "ahm_selection": {
+    "criterion": "AHMOptimizer._compute_similarity_score (mean top-K cos, eval->train, CLS)",
+    "K": 10,
+    "F": 5,
+    "scores": [
+      0.8379256054780276,
+      0.8137011891677018,
+      0.8510407805768843,
+      0.8238725527502408,
+      0.8668336574639427,
+      0.8429589710852926,
+      0.8658276439017496,
+      0.7815248833680511,
+      0.857210491355195,
+      0.8223765396025905,
+      0.8683076454248947,
+      0.7868868885778645,
+      0.8333319772302692,
+      0.8235624443710503,
+      0.8663118353887461,
+      0.843717871459149,
+      0.8258052230205407,
+      0.8221443878852511,
+      0.8121730128678518,
+      0.8255577989148369,
+      0.876654669448921,
+      0.85413638923819,
+      0.8648731408214316,
+      0.8106897450097822,
+      0.8728061565346952
+    ],
+    "top_mask_indices": [
+      20,
+      24,
+      10,
+      4,
+      14
+    ]
+  },
+  "stored_original_full": {
+    "results:ahss_raw": 0.98560962,
+    "results:mahalanobis": 0.99891836,
+    "results:knn": 0.9966590000000001,
+    "results:combined": 0.99937909,
+    "results:mc_dropout": 0.48939002,
+    "extended_results:ahss": 0.98560962,
+    "extended_results:mahalanobis": 0.99891836,
+    "extended_results:knn": 0.9966590000000001,
+    "extended_results:msp": 0.9895915400000002,
+    "extended_results:maxLogit": 0.99434936,
+    "extended_results:energy": 0.99451715,
+    "extended_results:kl": 0.99121326,
+    "extended_results:vim": 0.9989767199999999,
+    "extended_results:residual": 0.99897662,
+    "extended_results:neco": 0.99387822,
+    "extended_results:react": 0.99245688,
+    "extended_results:ash": 0.9909956,
+    "extended_results:mahAHM": 0.85523042,
+    "extended_results:knnAHM": 0.90447002,
+    "extended_results:combined": 0.99937909,
+    "mahAvgAvg_AHM": 0.99720922
+  },
+  "seconds": 2456.9093158245087
+}

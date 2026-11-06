@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "n_id": 651,
+  "n_ood": 230,
+  "exactness": {
+    "docs": 40,
+    "batches": [
+      16,
+      16,
+      8
+    ],
+    "passes": 2,
+    "bit_identical_per_pass": [
+      true,
+      true
+    ],
+    "max_abs_diff_per_pass": [
+      0.0,
+      0.0
+    ],
+    "passes_differ_from_each_other (dropout active)": true
+  },
+  "memory": {
+    "start_GB": 1.4286956787109375,
+    "ID_651_pass1_GB": 1.4063568115234375,
+    "ID_651_pass2_GB": 1.4063568115234375,
+    "OOD_230_pass1_GB": 1.4299163818359375,
+    "OOD_230_pass2_GB": 1.4299163818359375,
+    "seconds": 360.41436100006104,
+    "max_GB": 1.4299163818359375
+  },
+  "PASS": true
+}

@@ -1,0 +1,71 @@
+{
+  "experiment": "cifar10_svhn",
+  "seed": 1024,
+  "architecture": "ViT-B/16",
+  "ahss": {
+    "auroc": 0.98130784,
+    "fpr_at_95": 0.0608
+  },
+  "mahalanobis": {
+    "auroc": 0.9985827,
+    "fpr_at_95": 0.0038
+  },
+  "knn": {
+    "auroc": 0.9956365999999999,
+    "fpr_at_95": 0.0152
+  },
+  "msp": {
+    "auroc": 0.9895526899999999,
+    "fpr_at_95": 0.0355
+  },
+  "maxLogit": {
+    "auroc": 0.9943709599999999,
+    "fpr_at_95": 0.0193
+  },
+  "energy": {
+    "auroc": 0.9945162800000001,
+    "fpr_at_95": 0.0193
+  },
+  "kl": {
+    "auroc": 0.99084155,
+    "fpr_at_95": 0.0342
+  },
+  "vim": {
+    "auroc": 0.99876208,
+    "fpr_at_95": 0.0018
+  },
+  "residual": {
+    "auroc": 0.99876192,
+    "fpr_at_95": 0.0018
+  },
+  "neco": {
+    "auroc": 0.9933799799999999,
+    "fpr_at_95": 0.0311
+  },
+  "react": {
+    "auroc": 0.9908166,
+    "fpr_at_95": 0.0365
+  },
+  "ash": {
+    "auroc": 0.9868587199999999,
+    "fpr_at_95": 0.0471
+  },
+  "mahAHM": {
+    "auroc": 0.83463642,
+    "fpr_at_95": 0.8236
+  },
+  "knnAHM": {
+    "auroc": 0.89061518,
+    "fpr_at_95": 0.7993
+  },
+  "combined": {
+    "auroc": 0.99870682,
+    "fpr_at_95": 0.0035,
+    "best_alpha": 0.9
+  },
+  "elapsed_seconds": 1748.168564081192,
+  "timestamp": "2026-03-21 14:09:54",
+  "n_train": 45000,
+  "n_eval": 5000,
+  "n_ood": 10000
+}

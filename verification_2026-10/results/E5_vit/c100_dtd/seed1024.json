@@ -1,0 +1,164 @@
+{
+  "config": "c100_dtd",
+  "seed": 1024,
+  "num_labels": 100,
+  "load": {
+    "n_tensors_loaded": 200,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/cifar100_checkpoints/cifar100_seed1024/best_model/model.safetensors",
+    "weights_sha256": "b51ded4eb5613949555e64385808d2d28852180f63d7ed34e59ca7e39190681c"
+  },
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "n_full": {
+    "train": 45000,
+    "eval": 5000,
+    "ood": 1880
+  },
+  "subsample_sizes": {
+    "train": 3000,
+    "eval": 1000,
+    "ood": 1000
+  },
+  "masks": {
+    "n": 25,
+    "heads_zeroed": [
+      14,
+      28
+    ]
+  },
+  "scores": {
+    "maha_unmasked": {
+      "auroc": 0.999001,
+      "fpr95": 0.003
+    },
+    "knn10_unmasked": {
+      "auroc": 0.991441,
+      "fpr95": 0.03
+    },
+    "mahAHM_asym": {
+      "auroc": 0.655242,
+      "fpr95": 0.996
+    },
+    "mahAHM_sym": {
+      "auroc": 0.999889,
+      "fpr95": 0.0
+    },
+    "knnAHM10_asym": {
+      "auroc": 0.7158140000000002,
+      "fpr95": 0.996
+    },
+    "knnAHM10_sym": {
+      "auroc": 0.8845080000000001,
+      "fpr95": 0.812
+    },
+    "mahAvgAvg_avg_pad_unmasked": {
+      "auroc": 0.9999049999999999,
+      "fpr95": 0.0
+    },
+    "mahAvgAvg_AHM_avg_pad_asym": {
+      "auroc": 0.999979,
+      "fpr95": 0.0
+    },
+    "mahAvgAvg_AHM_avg_pad_sym": {
+      "auroc": 0.9999709999999999,
+      "fpr95": 0.0
+    },
+    "ahss": {
+      "auroc": 0.5038549999999999,
+      "fpr95": 0.995
+    },
+    "mahAHM_top5_sym": {
+      "auroc": 0.999748,
+      "fpr95": 0.001
+    },
+    "mahAHM_top5_asym": {
+      "auroc": 0.6308950000000001,
+      "fpr95": 0.982
+    },
+    "knnAHM10_top5_sym": {
+      "auroc": 0.8746349999999999,
+      "fpr95": 0.769
+    },
+    "knnAHM10_top5_asym": {
+      "auroc": 0.6198839999999999,
+      "fpr95": 0.978
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_sym": {
+      "auroc": 0.9998999999999999,
+      "fpr95": 0.0
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_asym": {
+      "auroc": 0.9999319999999999,
+      "fpr95": 0.0
+    }
+  },
+  "ahm_selection": {
+    "criterion": "AHMOptimizer._compute_similarity_score (mean top-K cos, eval->train, CLS)",
+    "K": 10,
+    "F": 5,
+    "scores": [
+      0.7837402337314019,
+      0.7282498848709422,
+      0.7767252735455807,
+      0.712577281259806,
+      0.7644697675554742,
+      0.8437862835942842,
+      0.7124412359939606,
+      0.6838027255288803,
+      0.7606560110025479,
+      0.6640202997411124,
+      0.7823600356613407,
+      0.6679055177294123,
+      0.778542326200112,
+      0.7489812021620574,
+      0.760721263154493,
+      0.7598083742795038,
+      0.7779986556209032,
+      0.695067551681371,
+      0.7870941776398901,
+      0.7418380462356694,
+      0.7913712752294392,
+      0.6566425908828811,
+      0.7434574141132699,
+      0.6417311383356339,
+      0.7925295360216451
+    ],
+    "top_mask_indices": [
+      5,
+      24,
+      20,
+      18,
+      0
+    ]
+  },
+  "stored_original_full": {
+    "full_results:AHSS": 0.5089003191489362,
+    "full_results:MC-Dropout": 0.49320723404255323,
+    "full_results:Mahalanobis": 0.9989664893617021,
+    "full_results:kNN": 0.9941591489361702,
+    "full_results:MSP": 0.9854359574468085,
+    "full_results:MaxLogit": 0.9930971276595744,
+    "full_results:Energy": 0.9940015957446809,
+    "full_results:KL": 0.9899231914893618,
+    "full_results:Residual": 0.9997763829787235,
+    "full_results:NECO": 0.9915172340425533,
+    "full_results:ReAct": 0.9948047872340425,
+    "full_results:ASH": 0.9930026595744681,
+    "full_results:X-Maha_uniform": 0.9999991489361703,
+    "full_results:X-Maha_optimized": 0.9999991489361703,
+    "full_results:mahAHM": 0.674886170212766,
+    "full_results:knnAHM": 0.7514794680851065,
+    "full_results:Combined": 0.9989664893617021,
+    "mahAvgAvg_AHM": 0.9999756382978723
+  },
+  "seconds": 2805.2142899036407
+}

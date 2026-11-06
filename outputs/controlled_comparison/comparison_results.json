@@ -1,0 +1,310 @@
+{
+  "timestamp": "2026-03-21 14:13:16",
+  "n_experiments": 20,
+  "ahss_auroc": {
+    "summary": {
+      "nc_ahm": {
+        "mean": 0.8976839163611887,
+        "std": 0.08097472400788351,
+        "min": 0.7204864511749015,
+        "max": 0.9956220862975458
+      },
+      "ahm": {
+        "mean": 0.8999646460937496,
+        "std": 0.08740063368543424,
+        "min": 0.6621567157520796,
+        "max": 0.985524021498318
+      },
+      "dahm": {
+        "mean": 0.8729672065666938,
+        "std": 0.10440639942129487,
+        "min": 0.5489368815396938,
+        "max": 0.9709409050920955
+      },
+      "random": {
+        "mean": 0.8429293193095233,
+        "std": 0.11765802329166213,
+        "min": 0.5631635837444865,
+        "max": 0.9938141187716905
+      }
+    },
+    "pairwise": {
+      "nc_ahm_vs_ahm": {
+        "mean_diff": -0.0022807297325609433,
+        "t_statistic": -0.2408472269735943,
+        "t_p_value": 0.8122533518312398,
+        "wilcoxon_statistic": 99.0,
+        "wilcoxon_p_value": 0.8408222198486328,
+        "cohens_d": -0.055254143326836896,
+        "wins": 10,
+        "ties": 1,
+        "losses": 9,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "nc_ahm_vs_dahm": {
+        "mean_diff": 0.024716709794494807,
+        "t_statistic": 2.137895207489809,
+        "t_p_value": 0.045736725459147635,
+        "wilcoxon_statistic": 50.0,
+        "wilcoxon_p_value": 0.039989471435546875,
+        "cohens_d": 0.4904667979646315,
+        "wins": 14,
+        "ties": 0,
+        "losses": 6,
+        "significant_at_005": true,
+        "significant_at_001": false
+      },
+      "nc_ahm_vs_random": {
+        "mean_diff": 0.05475459705166517,
+        "t_statistic": 3.8257841035836533,
+        "t_p_value": 0.0011406233174060172,
+        "wilcoxon_statistic": 21.0,
+        "wilcoxon_p_value": 0.000850677490234375,
+        "cohens_d": 0.877695067753973,
+        "wins": 17,
+        "ties": 0,
+        "losses": 3,
+        "significant_at_005": true,
+        "significant_at_001": true
+      },
+      "ahm_vs_dahm": {
+        "mean_diff": 0.02699743952705575,
+        "t_statistic": 1.5479886909983536,
+        "t_p_value": 0.13812061469204726,
+        "wilcoxon_statistic": 49.0,
+        "wilcoxon_p_value": 0.03623390197753906,
+        "cohens_d": 0.3551329615687175,
+        "wins": 17,
+        "ties": 0,
+        "losses": 3,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "ahm_vs_random": {
+        "mean_diff": 0.05703532678422609,
+        "t_statistic": 3.1009444865821725,
+        "t_p_value": 0.005882723362054343,
+        "wilcoxon_statistic": 21.0,
+        "wilcoxon_p_value": 0.000850677490234375,
+        "cohens_d": 0.7114054550811214,
+        "wins": 18,
+        "ties": 0,
+        "losses": 2,
+        "significant_at_005": true,
+        "significant_at_001": true
+      },
+      "dahm_vs_random": {
+        "mean_diff": 0.030037887257170354,
+        "t_statistic": 2.0849862286454,
+        "t_p_value": 0.05080065369959553,
+        "wilcoxon_statistic": 63.0,
+        "wilcoxon_p_value": 0.1230926513671875,
+        "cohens_d": 0.47832864575469936,
+        "wins": 11,
+        "ties": 1,
+        "losses": 8,
+        "significant_at_005": false,
+        "significant_at_001": false
+      }
+    }
+  },
+  "combined_auroc": {
+    "summary": {
+      "nc_ahm": {
+        "mean": 0.950692943896408,
+        "std": 0.055129542243361966,
+        "min": 0.8206148478673534,
+        "max": 0.9987445638795438
+      },
+      "ahm": {
+        "mean": 0.9537040465787842,
+        "std": 0.05092526266398288,
+        "min": 0.8536321291186675,
+        "max": 0.9987445638795438
+      },
+      "dahm": {
+        "mean": 0.9510368468843122,
+        "std": 0.05464054682913322,
+        "min": 0.8206148478673534,
+        "max": 0.9987445638795438
+      },
+      "random": {
+        "mean": 0.952519060351918,
+        "std": 0.05591082272945611,
+        "min": 0.8206148478673534,
+        "max": 0.9987445638795438
+      }
+    },
+    "pairwise": {
+      "nc_ahm_vs_ahm": {
+        "mean_diff": -0.003011102682376243,
+        "t_statistic": -1.7205961865629116,
+        "t_p_value": 0.10156939730945619,
+        "wilcoxon_statistic": 8.0,
+        "wilcoxon_p_value": 0.08583095844428565,
+        "cohens_d": -0.39473183683522034,
+        "wins": 0,
+        "ties": 15,
+        "losses": 5,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "nc_ahm_vs_dahm": {
+        "mean_diff": -0.0003439029879043154,
+        "t_statistic": -1.3335515975628127,
+        "t_p_value": 0.1981187365041317,
+        "wilcoxon_statistic": 8.0,
+        "wilcoxon_p_value": 0.3104944343172349,
+        "cohens_d": -0.3059377184091327,
+        "wins": 1,
+        "ties": 16,
+        "losses": 3,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "nc_ahm_vs_random": {
+        "mean_diff": -0.0018261164555101906,
+        "t_statistic": -1.4237430661655728,
+        "t_p_value": 0.17073650468666052,
+        "wilcoxon_statistic": 10.0,
+        "wilcoxon_p_value": 0.2626182904425206,
+        "cohens_d": -0.3266290603674986,
+        "wins": 0,
+        "ties": 16,
+        "losses": 4,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "ahm_vs_dahm": {
+        "mean_diff": 0.0026671996944719278,
+        "t_statistic": 1.537996328418648,
+        "t_p_value": 0.14053713342165067,
+        "wilcoxon_statistic": 6.0,
+        "wilcoxon_p_value": 0.050612432239184685,
+        "cohens_d": 0.35284055637439365,
+        "wins": 5,
+        "ties": 14,
+        "losses": 1,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "ahm_vs_random": {
+        "mean_diff": 0.0011849862268660527,
+        "t_statistic": 0.565143846622139,
+        "t_p_value": 0.5785886966180345,
+        "wilcoxon_statistic": 15.0,
+        "wilcoxon_p_value": 0.6744240722352938,
+        "cohens_d": 0.1296528903152502,
+        "wins": 3,
+        "ties": 15,
+        "losses": 2,
+        "significant_at_005": false,
+        "significant_at_001": false
+      },
+      "dahm_vs_random": {
+        "mean_diff": -0.001482213467605875,
+        "t_statistic": -1.1502564153197887,
+        "t_p_value": 0.2643104688968675,
+        "wilcoxon_statistic": 12.0,
+        "wilcoxon_p_value": 0.40081416938293446,
+        "cohens_d": -0.263886919659911,
+        "wins": 2,
+        "ties": 15,
+        "losses": 3,
+        "significant_at_005": false,
+        "significant_at_001": false
+      }
+    }
+  },
+  "subgroups": {
+    "financedocs_intra": {
+      "nc_ahm_ahss_auroc_mean": 0.9274762574379507,
+      "nc_ahm_ahss_auroc_std": 0.03538912906575313,
+      "ahm_ahss_auroc_mean": 0.9413622792859566,
+      "ahm_ahss_auroc_std": 0.0451387107565585,
+      "dahm_ahss_auroc_mean": 0.9147636827120899,
+      "dahm_ahss_auroc_std": 0.04110304548225088,
+      "random_ahss_auroc_mean": 0.9055728347683931,
+      "random_ahss_auroc_std": 0.06998030362399268,
+      "best_ahss_auroc": "ahm",
+      "nc_ahm_combined_auroc_mean": 0.9748844909636258,
+      "nc_ahm_combined_auroc_std": 0.014965784454768774,
+      "ahm_combined_auroc_mean": 0.9785385249478737,
+      "ahm_combined_auroc_std": 0.011055732661317477,
+      "dahm_combined_auroc_mean": 0.9749870117275442,
+      "dahm_combined_auroc_std": 0.013967062913600468,
+      "random_combined_auroc_mean": 0.9819265591122255,
+      "random_combined_auroc_std": 0.012369775590753787,
+      "best_combined_auroc": "random"
+    },
+    "financedocs_cross": {
+      "nc_ahm_ahss_auroc_mean": 0.9776716993517682,
+      "nc_ahm_ahss_auroc_std": 0.006742100687635987,
+      "ahm_ahss_auroc_mean": 0.9758948059407565,
+      "ahm_ahss_auroc_std": 0.006599786742175906,
+      "dahm_ahss_auroc_mean": 0.9496261385082466,
+      "dahm_ahss_auroc_std": 0.02601142184873132,
+      "random_ahss_auroc_mean": 0.9416625297448101,
+      "random_ahss_auroc_std": 0.04597323439085862,
+      "best_ahss_auroc": "nc_ahm",
+      "nc_ahm_combined_auroc_mean": 0.9970873676868794,
+      "nc_ahm_combined_auroc_std": 0.0015663309290499868,
+      "ahm_combined_auroc_mean": 0.9970873676868794,
+      "ahm_combined_auroc_std": 0.0015663309290499868,
+      "dahm_combined_auroc_mean": 0.9970873676868794,
+      "dahm_combined_auroc_std": 0.0015663309290499868,
+      "random_combined_auroc_mean": 0.9970873676868794,
+      "random_combined_auroc_std": 0.0015663309290499868,
+      "best_combined_auroc": "nc_ahm"
+    },
+    "tobacco_intra": {
+      "nc_ahm_ahss_auroc_mean": 0.9103506311360448,
+      "nc_ahm_ahss_auroc_std": 0.03426136751020909,
+      "ahm_ahss_auroc_mean": 0.9036973218459894,
+      "ahm_ahss_auroc_std": 0.03899874941879004,
+      "dahm_ahss_auroc_mean": 0.8990636478995524,
+      "dahm_ahss_auroc_std": 0.01846903718300556,
+      "random_ahss_auroc_mean": 0.8352995391705068,
+      "random_ahss_auroc_std": 0.08206816210032432,
+      "best_ahss_auroc": "nc_ahm",
+      "nc_ahm_combined_auroc_mean": 0.9704474721164763,
+      "nc_ahm_combined_auroc_std": 0.00589941977674257,
+      "ahm_combined_auroc_mean": 0.9705182662125159,
+      "ahm_combined_auroc_std": 0.005908037134306682,
+      "dahm_combined_auroc_mean": 0.9704448006411541,
+      "dahm_combined_auroc_std": 0.005899160886110098,
+      "random_combined_auroc_mean": 0.9708321645628798,
+      "random_combined_auroc_std": 0.005986574283382849,
+      "best_combined_auroc": "random"
+    },
+    "tobacco_cross": {
+      "nc_ahm_ahss_auroc_mean": 0.7752370775189903,
+      "nc_ahm_ahss_auroc_std": 0.0362854380021822,
+      "ahm_ahss_auroc_mean": 0.7789041773022952,
+      "ahm_ahss_auroc_std": 0.06931664333938284,
+      "dahm_ahss_auroc_mean": 0.728415357146886,
+      "dahm_ahss_auroc_std": 0.10814724465274911,
+      "random_ahss_auroc_mean": 0.6891823735543835,
+      "random_ahss_auroc_std": 0.06526012279722729,
+      "best_ahss_auroc": "ahm",
+      "nc_ahm_combined_auroc_mean": 0.8603524448186498,
+      "nc_ahm_combined_auroc_std": 0.02462750076745997,
+      "ahm_combined_auroc_mean": 0.8686720274678674,
+      "ahm_combined_auroc_std": 0.014209710318682577,
+      "dahm_combined_auroc_mean": 0.8616282074816712,
+      "dahm_combined_auroc_std": 0.02540060554219024,
+      "random_combined_auroc_mean": 0.8602301500456875,
+      "random_combined_auroc_std": 0.02467850942316427,
+      "best_combined_auroc": "ahm"
+    }
+  },
+  "ahss_auroc_friedman": {
+    "chi2": 21.47999999999996,
+    "p_value": 8.367574218335637e-05
+  },
+  "combined_auroc_friedman": {
+    "chi2": 2.1428571428570886,
+    "p_value": 0.5432912450214218
+  }
+}

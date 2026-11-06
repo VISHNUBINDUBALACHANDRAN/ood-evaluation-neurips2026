@@ -1,0 +1,51 @@
+{
+  "ablation": "p",
+  "dataset": "financedocs",
+  "seed": 42,
+  "results": [
+    {
+      "p": 0.05,
+      "ahss_auroc": 0.9904198502365598,
+      "ahss_fpr95": 0.04529616724738676,
+      "combined_auroc": 0.9904198502365598,
+      "combined_alpha": 0.0
+    },
+    {
+      "p": 0.1,
+      "ahss_auroc": 0.9862151135001835,
+      "ahss_fpr95": 0.06968641114982578,
+      "combined_auroc": 0.9862151135001835,
+      "combined_alpha": 0.0
+    },
+    {
+      "p": 0.2,
+      "ahss_auroc": 0.9855778222650162,
+      "ahss_fpr95": 0.05574912891986063,
+      "combined_auroc": 0.9857752440063452,
+      "combined_alpha": 0.1
+    },
+    {
+      "p": 0.3,
+      "ahss_auroc": 0.9799668885640858,
+      "ahss_fpr95": 0.09407665505226481,
+      "combined_auroc": 0.983278032155499,
+      "combined_alpha": 0.4
+    },
+    {
+      "p": 0.5,
+      "ahss_auroc": 0.932135410533316,
+      "ahss_fpr95": 0.5365853658536586,
+      "combined_auroc": 0.9753326729518361,
+      "combined_alpha": 0.7000000000000001
+    },
+    {
+      "p": 0.7,
+      "ahss_auroc": 0.8276057938085772,
+      "ahss_fpr95": 0.7177700348432056,
+      "combined_auroc": 0.9703590304860731,
+      "combined_alpha": 1.0
+    }
+  ],
+  "elapsed_seconds": 2167.1168580055237,
+  "timestamp": "2026-03-21 15:04:20"
+}

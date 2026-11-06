@@ -1,0 +1,92 @@
+{
+  "experiment": "tobacco_intra_seed456",
+  "dataset": "tobacco",
+  "experiment_type": "intra",
+  "seed": 456,
+  "num_masks": 30,
+  "individual_features": {
+    "mean": {
+      "name": "FSP_mean",
+      "auroc": 0.8210111534094703,
+      "fpr_at_95": 0.6869565217391305,
+      "id_mean": 0.25182939858844233,
+      "id_std": 0.13750912530628506,
+      "id_median": 0.20659968081728203,
+      "ood_mean": 0.4321158300060044,
+      "ood_std": 0.15081786514606238,
+      "ood_median": 0.4229267241384893,
+      "mann_whitney_u": 26800.0,
+      "mann_whitney_p": 1.4303213826168136e-47,
+      "significant": true
+    },
+    "variance": {
+      "name": "FSP_variance",
+      "auroc": 0.5113404127429373,
+      "fpr_at_95": 1.0,
+      "id_mean": 0.11864778016585213,
+      "id_std": 0.15263432725753887,
+      "id_median": 0.044324864886402374,
+      "ood_mean": 0.06669991282848427,
+      "ood_std": 0.05887641370806999,
+      "ood_median": 0.047079561548699446,
+      "mann_whitney_u": 73167.0,
+      "mann_whitney_p": 0.6088640334243274,
+      "significant": false
+    },
+    "skewness": {
+      "name": "FSP_skewness",
+      "auroc": 0.15040406064248982,
+      "fpr_at_95": 1.0,
+      "id_mean": 1.962873304937211,
+      "id_std": 0.9602428379086512,
+      "id_median": 1.8086005050120402,
+      "ood_mean": 0.8699482394713272,
+      "ood_std": 0.590529961942292,
+      "ood_median": 0.7400715787055321,
+      "mann_whitney_u": 127210.0,
+      "mann_whitney_p": 4.356316896909883e-56,
+      "significant": true
+    },
+    "kurtosis": {
+      "name": "FSP_kurtosis",
+      "auroc": 0.19552527883523677,
+      "fpr_at_95": 1.0,
+      "id_mean": 4.237037466701481,
+      "id_std": 5.083938700937245,
+      "id_median": 2.1084199701160315,
+      "ood_mean": 0.5125950537038308,
+      "ood_std": 2.137132961033487,
+      "ood_median": -0.24483832376200998,
+      "mann_whitney_u": 120454.0,
+      "mann_whitney_p": 5.670128587599961e-43,
+      "significant": true
+    }
+  },
+  "combined": {
+    "name": "FSP_combined",
+    "auroc": 0.8210111534094703,
+    "fpr_at_95": 0.6869565217391305,
+    "selected_features": [
+      "mean"
+    ]
+  },
+  "fsp_variance_mah_combined": {
+    "auroc": 0.9701863354037268,
+    "best_alpha": 1.0,
+    "mah_only_auroc": 0.9701863354037268
+  },
+  "displacement_stats": {
+    "eval_shape": [
+      651,
+      30
+    ],
+    "ood_shape": [
+      230,
+      30
+    ],
+    "eval_disp_global_mean": 0.2518293985884424,
+    "ood_disp_global_mean": 0.4321158300060045
+  },
+  "elapsed_seconds": 846.1522448062897,
+  "timestamp": "2026-03-20 05:09:06"
+}

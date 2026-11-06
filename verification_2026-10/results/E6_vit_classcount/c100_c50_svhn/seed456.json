@@ -1,0 +1,164 @@
+{
+  "config": "c100_c50_svhn",
+  "seed": 456,
+  "num_labels": 50,
+  "load": {
+    "n_tensors_loaded": 200,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/cifar100_checkpoints/cifar100_c50_seed456/best_model/model.safetensors",
+    "weights_sha256": "4d17b9da7c11fe6bb642a2d6a2a59bae93396c37719220f7a0d06f8aa0588307"
+  },
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "n_full": {
+    "train": 22500,
+    "eval": 2500,
+    "ood": 10000
+  },
+  "subsample_sizes": {
+    "train": 3000,
+    "eval": 1000,
+    "ood": 1000
+  },
+  "masks": {
+    "n": 25,
+    "heads_zeroed": [
+      14,
+      28
+    ]
+  },
+  "scores": {
+    "maha_unmasked": {
+      "auroc": 0.9220280000000001,
+      "fpr95": 0.454
+    },
+    "knn10_unmasked": {
+      "auroc": 0.879939,
+      "fpr95": 0.551
+    },
+    "mahAHM_asym": {
+      "auroc": 0.767244,
+      "fpr95": 0.778
+    },
+    "mahAHM_sym": {
+      "auroc": 0.706764,
+      "fpr95": 0.86
+    },
+    "knnAHM10_asym": {
+      "auroc": 0.7597039999999999,
+      "fpr95": 0.781
+    },
+    "knnAHM10_sym": {
+      "auroc": 0.651675,
+      "fpr95": 0.993
+    },
+    "mahAvgAvg_avg_pad_unmasked": {
+      "auroc": 0.959704,
+      "fpr95": 0.26
+    },
+    "mahAvgAvg_AHM_avg_pad_asym": {
+      "auroc": 0.86243,
+      "fpr95": 0.768
+    },
+    "mahAvgAvg_AHM_avg_pad_sym": {
+      "auroc": 0.776003,
+      "fpr95": 0.869
+    },
+    "ahss": {
+      "auroc": 0.919498,
+      "fpr95": 0.541
+    },
+    "mahAHM_top5_sym": {
+      "auroc": 0.8549339999999999,
+      "fpr95": 0.632
+    },
+    "mahAHM_top5_asym": {
+      "auroc": 0.8442320000000001,
+      "fpr95": 0.738
+    },
+    "knnAHM10_top5_sym": {
+      "auroc": 0.7698860000000001,
+      "fpr95": 0.793
+    },
+    "knnAHM10_top5_asym": {
+      "auroc": 0.773952,
+      "fpr95": 0.867
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_sym": {
+      "auroc": 0.895529,
+      "fpr95": 0.611
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_asym": {
+      "auroc": 0.911945,
+      "fpr95": 0.546
+    }
+  },
+  "ahm_selection": {
+    "criterion": "AHMOptimizer._compute_similarity_score (mean top-K cos, eval->train, CLS)",
+    "K": 10,
+    "F": 5,
+    "scores": [
+      0.8131917814634395,
+      0.7462458636559859,
+      0.7622881965332096,
+      0.6795611594574711,
+      0.7570257795506538,
+      0.7622931804573039,
+      0.8046222882975017,
+      0.6950176844735513,
+      0.8054559778643137,
+      0.7023772986866823,
+      0.7364147185302894,
+      0.7630347755467461,
+      0.8206331383236309,
+      0.7592643010327869,
+      0.7588878254873844,
+      0.757427738099423,
+      0.753935923606609,
+      0.733584074751074,
+      0.7934272196257399,
+      0.7036331098685905,
+      0.7794396477918942,
+      0.7622151129353043,
+      0.769559431139494,
+      0.6960345029647225,
+      0.8011509770482096
+    ],
+    "top_mask_indices": [
+      12,
+      0,
+      8,
+      6,
+      24
+    ]
+  },
+  "stored_original_full": {
+    "full_results:AHSS": 0.9237158799999999,
+    "full_results:MC-Dropout": 0.50741764,
+    "full_results:Mahalanobis": 0.9184953199999999,
+    "full_results:kNN": 0.88788748,
+    "full_results:MSP": 0.92256178,
+    "full_results:MaxLogit": 0.9338472200000001,
+    "full_results:Energy": 0.9351637999999999,
+    "full_results:KL": 0.9301319599999999,
+    "full_results:Residual": 0.9199572199999998,
+    "full_results:NECO": 0.9445937000000001,
+    "full_results:ReAct": 0.9169678200000001,
+    "full_results:ASH": 0.9343437599999999,
+    "full_results:X-Maha_uniform": 0.9817364399999999,
+    "full_results:X-Maha_optimized": 0.98276916,
+    "full_results:mahAHM": 0.7762439999999999,
+    "full_results:knnAHM": 0.7426268,
+    "full_results:Combined": 0.9401105999999999,
+    "mahAvgAvg_AHM": 0.8881114799999998
+  },
+  "seconds": 2283.947401046753
+}

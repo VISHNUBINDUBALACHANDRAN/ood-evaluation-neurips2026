@@ -1,0 +1,25 @@
+{
+  "auroc": 0.92989912,
+  "fpr_at_95": 0.5689,
+  "n_masks": 25,
+  "train_shape": [
+    22500,
+    768
+  ],
+  "eval_shape": [
+    2500,
+    768
+  ],
+  "ood_shape": [
+    10000,
+    768
+  ],
+  "train_fitting": "unmasked_avgavg",
+  "eval_ood_scoring": "masked_avgavg_averaged",
+  "experiment": "cifar100_c50_svhn",
+  "seed": 123,
+  "architecture": "vit_cifar100",
+  "method": "mahAvgAvg_AHM",
+  "elapsed_seconds": 1897.0307002067566,
+  "timestamp": "2026-07-29 19:11:30"
+}

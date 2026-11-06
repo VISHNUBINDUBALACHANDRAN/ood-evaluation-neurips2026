@@ -1,0 +1,167 @@
+{
+  "config": "c10_svhn",
+  "seed": 789,
+  "num_labels": 10,
+  "load": {
+    "n_tensors_loaded": 200,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/vit_checkpoints/cifar10_svhn_seed789/best_model/model.safetensors",
+    "weights_sha256": "c45fbf071e9d2e44ae4487623731aa017cef35d19e83e8a98ee51701b41ddf62"
+  },
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "n_full": {
+    "train": 45000,
+    "eval": 5000,
+    "ood": 10000
+  },
+  "subsample_sizes": {
+    "train": 3000,
+    "eval": 1000,
+    "ood": 1000
+  },
+  "masks": {
+    "n": 25,
+    "heads_zeroed": [
+      14,
+      28
+    ]
+  },
+  "scores": {
+    "maha_unmasked": {
+      "auroc": 0.999121,
+      "fpr95": 0.001
+    },
+    "knn10_unmasked": {
+      "auroc": 0.991956,
+      "fpr95": 0.039
+    },
+    "mahAHM_asym": {
+      "auroc": 0.9234400000000001,
+      "fpr95": 0.858
+    },
+    "mahAHM_sym": {
+      "auroc": 0.9966550000000001,
+      "fpr95": 0.006
+    },
+    "knnAHM10_asym": {
+      "auroc": 0.92137,
+      "fpr95": 0.806
+    },
+    "knnAHM10_sym": {
+      "auroc": 0.961103,
+      "fpr95": 0.248
+    },
+    "mahAvgAvg_avg_pad_unmasked": {
+      "auroc": 0.9987,
+      "fpr95": 0.002
+    },
+    "mahAvgAvg_AHM_avg_pad_asym": {
+      "auroc": 0.9977799999999999,
+      "fpr95": 0.003
+    },
+    "mahAvgAvg_AHM_avg_pad_sym": {
+      "auroc": 0.991223,
+      "fpr95": 0.016
+    },
+    "ahss": {
+      "auroc": 0.983709,
+      "fpr95": 0.085
+    },
+    "mahAHM_top5_sym": {
+      "auroc": 0.99894,
+      "fpr95": 0.001
+    },
+    "mahAHM_top5_asym": {
+      "auroc": 0.999015,
+      "fpr95": 0.002
+    },
+    "knnAHM10_top5_sym": {
+      "auroc": 0.986132,
+      "fpr95": 0.065
+    },
+    "knnAHM10_top5_asym": {
+      "auroc": 0.980446,
+      "fpr95": 0.105
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_sym": {
+      "auroc": 0.996815,
+      "fpr95": 0.003
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_asym": {
+      "auroc": 0.997886,
+      "fpr95": 0.001
+    }
+  },
+  "ahm_selection": {
+    "criterion": "AHMOptimizer._compute_similarity_score (mean top-K cos, eval->train, CLS)",
+    "K": 10,
+    "F": 5,
+    "scores": [
+      0.8153798736070164,
+      0.8171897331338308,
+      0.8243465889408627,
+      0.8203444810599209,
+      0.8048331310527632,
+      0.8307278658419073,
+      0.8625860618701324,
+      0.8385794799493926,
+      0.8644502468710991,
+      0.7937823149220766,
+      0.8406691089610681,
+      0.7751710599045456,
+      0.8681076320858818,
+      0.7865525475184959,
+      0.8598858020615311,
+      0.7654634650160741,
+      0.8623052765000757,
+      0.8075834346649297,
+      0.8408575173443229,
+      0.7424558092093162,
+      0.8300613800712887,
+      0.8296562162819399,
+      0.8439379001052306,
+      0.8109439798818788,
+      0.8641541854840796
+    ],
+    "top_mask_indices": [
+      12,
+      8,
+      24,
+      6,
+      16
+    ]
+  },
+  "stored_original_full": {
+    "results:ahss_raw": 0.9843693600000001,
+    "results:mahalanobis": 0.9991614600000001,
+    "results:knn": 0.9946951,
+    "results:combined": 0.99938948,
+    "results:mc_dropout": 0.49842285999999997,
+    "extended_results:ahss": 0.9843693600000001,
+    "extended_results:mahalanobis": 0.9991614600000001,
+    "extended_results:knn": 0.9946951,
+    "extended_results:msp": 0.9918364500000001,
+    "extended_results:maxLogit": 0.9962800199999999,
+    "extended_results:energy": 0.9965027999999999,
+    "extended_results:kl": 0.99375,
+    "extended_results:vim": 0.99936402,
+    "extended_results:residual": 0.99936382,
+    "extended_results:neco": 0.99569452,
+    "extended_results:react": 0.99538462,
+    "extended_results:ash": 0.99413208,
+    "extended_results:mahAHM": 0.92693418,
+    "extended_results:knnAHM": 0.93606412,
+    "extended_results:combined": 0.99938948,
+    "mahAvgAvg_AHM": 0.99776898
+  },
+  "seconds": 2392.104420185089
+}

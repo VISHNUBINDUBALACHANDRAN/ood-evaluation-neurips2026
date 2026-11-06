@@ -1,0 +1,12 @@
+{
+  "phase1_count": 20,
+  "phase2_count": 0,
+  "phase3_count": 20,
+  "phase4_count": 10,
+  "phase1_experiments": {
+    "financedocs_intra": 5,
+    "financedocs_cross": 5,
+    "tobacco_intra": 5,
+    "tobacco_cross": 5
+  }
+}

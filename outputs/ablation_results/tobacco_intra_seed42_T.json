@@ -1,0 +1,58 @@
+{
+  "ablation": "T",
+  "dataset": "tobacco",
+  "seed": 42,
+  "results": [
+    {
+      "T": 5,
+      "ahss_auroc": 0.7580311226875042,
+      "ahss_fpr95": 0.9695652173913043,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    },
+    {
+      "T": 10,
+      "ahss_auroc": 0.7841447939624657,
+      "ahss_fpr95": 0.8391304347826087,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    },
+    {
+      "T": 15,
+      "ahss_auroc": 0.799058304948908,
+      "ahss_fpr95": 0.6391304347826087,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    },
+    {
+      "T": 20,
+      "ahss_auroc": 0.81613571094637,
+      "ahss_fpr95": 0.5652173913043478,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    },
+    {
+      "T": 25,
+      "ahss_auroc": 0.8321311694383223,
+      "ahss_fpr95": 0.5565217391304348,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    },
+    {
+      "T": 30,
+      "ahss_auroc": 0.855052427703199,
+      "ahss_fpr95": 0.5295652173913037,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    },
+    {
+      "T": 50,
+      "ahss_auroc": 0.8711413878314298,
+      "ahss_fpr95": 0.5521739130434783,
+      "combined_auroc": 0.9751018499966607,
+      "combined_alpha": 1.0
+    }
+  ],
+  "elapsed_seconds": 796.0045623779297,
+  "timestamp": "2026-03-21 15:24:00"
+}

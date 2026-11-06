@@ -1,0 +1,26 @@
+{
+  "experiment": "financedocs_near",
+  "seed": 1024,
+  "description": "sec_form (ID) vs sec_letter (OOD) \u2014 same domain near-OOD",
+  "n_id_eval": 25,
+  "n_ood": 141,
+  "ahss": {
+    "auroc": 0.7829787234042552,
+    "fpr_at_95": 0.5177304964539007
+  },
+  "mahalanobis": {
+    "auroc": 0.8136170212765957,
+    "fpr_at_95": 0.9219858156028369
+  },
+  "knn": {
+    "auroc": 0.8493617021276596,
+    "fpr_at_95": 0.8723404255319149
+  },
+  "combined": {
+    "auroc": 0.8374468085106384,
+    "best_alpha": 0.5
+  },
+  "delta_from_mah": 0.02382978723404261,
+  "elapsed_seconds": 86.35671377182007,
+  "timestamp": "2026-03-20 11:01:12"
+}

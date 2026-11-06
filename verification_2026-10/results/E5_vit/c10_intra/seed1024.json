@@ -1,0 +1,167 @@
+{
+  "config": "c10_intra",
+  "seed": 1024,
+  "num_labels": 9,
+  "load": {
+    "n_tensors_loaded": 200,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/vit_checkpoints/cifar10_intra_seed1024/best_model/model.safetensors",
+    "weights_sha256": "24bb0eb7de53080166ad94e7f864834e4b731631801ba54c12084c10af85bf48"
+  },
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "n_full": {
+    "train": 40500,
+    "eval": 4500,
+    "ood": 1000
+  },
+  "subsample_sizes": {
+    "train": 3000,
+    "eval": 1000,
+    "ood": 1000
+  },
+  "masks": {
+    "n": 25,
+    "heads_zeroed": [
+      14,
+      28
+    ]
+  },
+  "scores": {
+    "maha_unmasked": {
+      "auroc": 0.99149,
+      "fpr95": 0.039
+    },
+    "knn10_unmasked": {
+      "auroc": 0.9830169999999999,
+      "fpr95": 0.101
+    },
+    "mahAHM_asym": {
+      "auroc": 0.6818540000000001,
+      "fpr95": 0.994
+    },
+    "mahAHM_sym": {
+      "auroc": 0.9923799999999999,
+      "fpr95": 0.033
+    },
+    "knnAHM10_asym": {
+      "auroc": 0.796155,
+      "fpr95": 0.989
+    },
+    "knnAHM10_sym": {
+      "auroc": 0.9684139999999999,
+      "fpr95": 0.178
+    },
+    "mahAvgAvg_avg_pad_unmasked": {
+      "auroc": 0.986345,
+      "fpr95": 0.061
+    },
+    "mahAvgAvg_AHM_avg_pad_asym": {
+      "auroc": 0.98914,
+      "fpr95": 0.044
+    },
+    "mahAvgAvg_AHM_avg_pad_sym": {
+      "auroc": 0.980962,
+      "fpr95": 0.083
+    },
+    "ahss": {
+      "auroc": 0.80203,
+      "fpr95": 0.821
+    },
+    "mahAHM_top5_sym": {
+      "auroc": 0.9933179999999999,
+      "fpr95": 0.025
+    },
+    "mahAHM_top5_asym": {
+      "auroc": 0.994144,
+      "fpr95": 0.024
+    },
+    "knnAHM10_top5_sym": {
+      "auroc": 0.986603,
+      "fpr95": 0.068
+    },
+    "knnAHM10_top5_asym": {
+      "auroc": 0.9854569999999999,
+      "fpr95": 0.09
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_sym": {
+      "auroc": 0.987501,
+      "fpr95": 0.052
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_asym": {
+      "auroc": 0.9908729999999999,
+      "fpr95": 0.035
+    }
+  },
+  "ahm_selection": {
+    "criterion": "AHMOptimizer._compute_similarity_score (mean top-K cos, eval->train, CLS)",
+    "K": 10,
+    "F": 5,
+    "scores": [
+      0.8620070153721259,
+      0.8164092859381011,
+      0.8667583185077554,
+      0.7940519794211469,
+      0.8592479734362615,
+      0.8334750274284899,
+      0.8129463672153919,
+      0.7694037717638715,
+      0.855927504850223,
+      0.8173180220342982,
+      0.8700937765470277,
+      0.8046290424485754,
+      0.8689268378866729,
+      0.820045152603768,
+      0.8648850090256271,
+      0.8313247365289732,
+      0.8619519867626446,
+      0.7744545882060729,
+      0.8304027858731433,
+      0.8341632789903018,
+      0.8540560092751767,
+      0.8101341388995609,
+      0.8504686006698939,
+      0.7837138637055654,
+      0.8706901199885113
+    ],
+    "top_mask_indices": [
+      24,
+      10,
+      12,
+      2,
+      14
+    ]
+  },
+  "stored_original_full": {
+    "results:ahss_raw": 0.8120644444444445,
+    "results:mahalanobis": 0.9917677777777779,
+    "results:knn": 0.98862,
+    "results:combined": 0.9917677777777779,
+    "results:mc_dropout": 0.4885315555555555,
+    "extended_results:ahss": 0.8120644444444445,
+    "extended_results:mahalanobis": 0.9917677777777779,
+    "extended_results:knn": 0.98862,
+    "extended_results:msp": 0.9669485555555556,
+    "extended_results:maxLogit": 0.9658782222222224,
+    "extended_results:energy": 0.9660574444444444,
+    "extended_results:kl": 0.9681518888888887,
+    "extended_results:vim": 0.9928486666666667,
+    "extended_results:residual": 0.9926924444444445,
+    "extended_results:neco": 0.9802286666666666,
+    "extended_results:react": 0.965484888888889,
+    "extended_results:ash": 0.9534891111111111,
+    "extended_results:mahAHM": 0.6811097777777777,
+    "extended_results:knnAHM": 0.7921862222222222,
+    "extended_results:combined": 0.9917677777777779,
+    "mahAvgAvg_AHM": 0.9895791111111112
+  },
+  "seconds": 2410.280920982361
+}

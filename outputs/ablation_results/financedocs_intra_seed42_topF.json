@@ -1,0 +1,98 @@
+{
+  "ablation": "topF",
+  "dataset": "financedocs",
+  "seed": 42,
+  "results": [
+    {
+      "F": 1,
+      "ahss_auroc": 0.9967234918018024,
+      "ahss_fpr95": 0.0,
+      "combined_auroc": 0.996844715678057,
+      "combined_alpha": 0.1,
+      "mask_indices": [
+        12
+      ]
+    },
+    {
+      "F": 3,
+      "ahss_auroc": 0.9985106780917283,
+      "ahss_fpr95": 0.003484320557491289,
+      "combined_auroc": 0.9985106780917283,
+      "combined_alpha": 0.0,
+      "mask_indices": [
+        12,
+        19,
+        11
+      ]
+    },
+    {
+      "F": 5,
+      "ahss_auroc": 0.9975755224749068,
+      "ahss_fpr95": 0.010452961672473868,
+      "combined_auroc": 0.9975755224749068,
+      "combined_alpha": 0.0,
+      "mask_indices": [
+        12,
+        19,
+        11,
+        23,
+        6
+      ]
+    },
+    {
+      "F": 10,
+      "ahss_auroc": 0.9968204709028061,
+      "ahss_fpr95": 0.013937282229965157,
+      "combined_auroc": 0.9968204709028061,
+      "combined_alpha": 0.0,
+      "mask_indices": [
+        12,
+        19,
+        11,
+        23,
+        6,
+        20,
+        1,
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "F": 25,
+      "ahss_auroc": 0.9886534451825633,
+      "ahss_fpr95": 0.05574912891986063,
+      "combined_auroc": 0.9886534451825633,
+      "combined_alpha": 0.0,
+      "mask_indices": [
+        12,
+        19,
+        11,
+        23,
+        6,
+        20,
+        1,
+        15,
+        18,
+        22,
+        9,
+        16,
+        21,
+        7,
+        3,
+        0,
+        2,
+        17,
+        14,
+        24,
+        5,
+        8,
+        13,
+        4,
+        10
+      ]
+    }
+  ],
+  "elapsed_seconds": 384.70707178115845,
+  "timestamp": "2026-03-21 15:10:44"
+}

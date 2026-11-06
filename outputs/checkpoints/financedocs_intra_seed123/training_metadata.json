@@ -1,0 +1,32 @@
+{
+  "seed": 123,
+  "dataset": "FinanceDocs",
+  "experiment_type": "intra",
+  "num_labels": 9,
+  "label2id": {
+    "articles_of_association": 0,
+    "financial_info": 1,
+    "images__10k_page": 2,
+    "list_directors": 3,
+    "scientific_ai_paper": 4,
+    "sec_13": 5,
+    "sec_form": 6,
+    "sec_letter": 7,
+    "shareholder_letter": 8
+  },
+  "id2label": {
+    "0": "articles_of_association",
+    "1": "financial_info",
+    "2": "images__10k_page",
+    "3": "list_directors",
+    "4": "scientific_ai_paper",
+    "5": "sec_13",
+    "6": "sec_form",
+    "7": "sec_letter",
+    "8": "shareholder_letter"
+  },
+  "silhouette_score": 0.8537140488624573,
+  "eval_accuracy": 0.9980119284294234,
+  "train_samples": 2008,
+  "eval_samples": 503
+}

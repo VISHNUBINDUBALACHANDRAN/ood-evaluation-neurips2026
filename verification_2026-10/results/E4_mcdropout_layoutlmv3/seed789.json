@@ -1,0 +1,31 @@
+{
+  "seed": 789,
+  "n_id": 651,
+  "n_ood": 230,
+  "n_passes": 25,
+  "dropout_rates_in_model": [
+    0.0,
+    0.1
+  ],
+  "eval_acc_eval_mode": 0.9431643625192012,
+  "eval_acc_logged": 0.9431643625192012,
+  "WEIGHTS_GATE_PASS": true,
+  "var_id_mean": 0.11920979474771903,
+  "var_ood_mean": 0.20776040565314313,
+  "var_id_median": 0.11173636903015219,
+  "var_ood_median": 0.19507803797527637,
+  "auroc": 0.939297401990249,
+  "fpr95": 0.3695652173913043,
+  "paper_auroc_this_seed": 0.9344219595271488,
+  "abs_diff_vs_paper": 0.0048754424631002324,
+  "REPRO_GATE_PASS": true,
+  "load": {
+    "n_tensors_loaded": 216,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed789/best_model/model.safetensors",
+    "weights_sha256": "de94fb256d3097b3451ee98833aba06c7e8d93e18000e1227260b4db5f375b94",
+    "num_labels": 9
+  },
+  "seconds": 4574.229298114777
+}

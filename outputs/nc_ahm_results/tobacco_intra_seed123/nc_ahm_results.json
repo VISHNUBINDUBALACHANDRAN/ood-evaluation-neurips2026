@@ -1,0 +1,36 @@
+{
+  "experiment": "tobacco_intra_seed123",
+  "dataset": "tobacco",
+  "experiment_type": "intra",
+  "seed": 123,
+  "nc_ahm": {
+    "ahss_auroc": 0.8555332932612034,
+    "ahss_fpr95": 0.5130434782608696,
+    "combined_auroc": 0.9617244373205102,
+    "combined_alpha": 1.0,
+    "num_masks": 5
+  },
+  "random": {
+    "ahss_auroc": 0.7459694116075603,
+    "ahss_fpr95": 0.8478260869565217,
+    "combined_auroc": 0.9617244373205102,
+    "combined_alpha": 1.0,
+    "num_masks": 5
+  },
+  "ahm": {
+    "ahss_auroc": 0.8274026581179457,
+    "ahss_fpr95": 0.7,
+    "combined_auroc": 0.9617244373205102,
+    "combined_alpha": 1.0,
+    "num_masks": 5
+  },
+  "dahm": {
+    "ahss_auroc": 0.8911373806184465,
+    "ahss_fpr95": 0.7521739130434782,
+    "combined_auroc": 0.9617244373205102,
+    "combined_alpha": 1.0,
+    "num_masks": 4
+  },
+  "elapsed_seconds": 2772.342797756195,
+  "timestamp": "2026-03-20 22:27:38"
+}

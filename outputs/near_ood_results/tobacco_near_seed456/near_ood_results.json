@@ -1,0 +1,26 @@
+{
+  "experiment": "tobacco_near",
+  "seed": 456,
+  "description": "Letter (ID) vs Memo (OOD) \u2014 same type family near-OOD",
+  "n_id_eval": 114,
+  "n_ood": 620,
+  "ahss": {
+    "auroc": 0.054668930390492365,
+    "fpr_at_95": 0.9854838709677419
+  },
+  "mahalanobis": {
+    "auroc": 0.7192558007923033,
+    "fpr_at_95": 0.9016129032258065
+  },
+  "knn": {
+    "auroc": 0.8285795132993776,
+    "fpr_at_95": 0.7935483870967742
+  },
+  "combined": {
+    "auroc": 0.7192558007923033,
+    "best_alpha": 1.0
+  },
+  "delta_from_mah": 0.0,
+  "elapsed_seconds": 510.88890051841736,
+  "timestamp": "2026-03-20 11:25:58"
+}

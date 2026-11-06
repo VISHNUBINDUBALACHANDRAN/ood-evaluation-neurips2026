@@ -1,0 +1,34 @@
+{
+  "seed": 789,
+  "dataset": "FinanceDocs",
+  "experiment_type": "cross",
+  "num_labels": 10,
+  "label2id": {
+    "articles_of_association": 0,
+    "financial_info": 1,
+    "images__10k_page": 2,
+    "list_directors": 3,
+    "resumes": 4,
+    "scientific_ai_paper": 5,
+    "sec_13": 6,
+    "sec_form": 7,
+    "sec_letter": 8,
+    "shareholder_letter": 9
+  },
+  "id2label": {
+    "0": "articles_of_association",
+    "1": "financial_info",
+    "2": "images__10k_page",
+    "3": "list_directors",
+    "4": "resumes",
+    "5": "scientific_ai_paper",
+    "6": "sec_13",
+    "7": "sec_form",
+    "8": "sec_letter",
+    "9": "shareholder_letter"
+  },
+  "silhouette_score": 0.8728457689285278,
+  "eval_accuracy": 0.9982142857142857,
+  "train_samples": 2238,
+  "eval_samples": 560
+}

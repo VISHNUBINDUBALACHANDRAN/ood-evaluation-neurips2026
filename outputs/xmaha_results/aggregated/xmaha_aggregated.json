@@ -1,0 +1,140 @@
+{
+  "layoutlmv3_financedocs_intra": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9940288582096273,
+      "auroc_std": 0.0023547706998191084,
+      "fpr_mean": 0.007665505226480837,
+      "fpr_std": 0.007440472649499172,
+      "n_seeds": 5
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.9940288582096273,
+      "auroc_std": 0.0023547706998191084,
+      "fpr_mean": 0.007665505226480837,
+      "fpr_std": 0.007440472649499172,
+      "n_seeds": 5
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.9871641232742915,
+      "auroc_std": 0.011262452542362699,
+      "fpr_mean": 0.06202090592334495,
+      "fpr_std": 0.06736192877265268,
+      "n_seeds": 5
+    }
+  },
+  "layoutlmv3_financedocs_cross": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9949115861163536,
+      "auroc_std": 0.0026951293558077757,
+      "fpr_mean": 0.002010338885697875,
+      "fpr_std": 0.002402814550643525,
+      "n_seeds": 5
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.9949125092311479,
+      "auroc_std": 0.002694391416064322,
+      "fpr_mean": 0.002010338885697875,
+      "fpr_std": 0.002402814550643525,
+      "n_seeds": 5
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.9958135718388448,
+      "auroc_std": 0.0030798029376479857,
+      "fpr_mean": 0.006547960941987363,
+      "fpr_std": 0.009695672530707775,
+      "n_seeds": 5
+    }
+  },
+  "layoutlmv3_tobacco_intra": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9341347759300073,
+      "auroc_std": 0.007216586488225935,
+      "fpr_mean": 0.41478260869565214,
+      "fpr_std": 0.062921921791741,
+      "n_seeds": 5
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.9341414546183129,
+      "auroc_std": 0.007213804554623725,
+      "fpr_mean": 0.41478260869565214,
+      "fpr_std": 0.062921921791741,
+      "n_seeds": 5
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.9690189006879049,
+      "auroc_std": 0.004255854716935936,
+      "fpr_mean": 0.19391304347826088,
+      "fpr_std": 0.033407604717040955,
+      "n_seeds": 5
+    }
+  },
+  "layoutlmv3_tobacco_cross": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9178171946963551,
+      "auroc_std": 0.008334430970351166,
+      "fpr_mean": 0.6222301644031452,
+      "fpr_std": 0.11817011632691206,
+      "n_seeds": 5
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.919427075908904,
+      "auroc_std": 0.006556706928371726,
+      "fpr_mean": 0.6130807719799857,
+      "fpr_std": 0.12597067248643995,
+      "n_seeds": 5
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.9023151400416161,
+      "auroc_std": 0.012070573709901363,
+      "fpr_mean": 0.6175839885632595,
+      "fpr_std": 0.07594016702951602,
+      "n_seeds": 5
+    }
+  },
+  "vit_cifar10_intra": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9836976888888888,
+      "auroc_std": 0.0024892918110366036,
+      "fpr_mean": 0.074,
+      "fpr_std": 0.015899685531481435,
+      "n_seeds": 5
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.9855227555555557,
+      "auroc_std": 0.0029453507019590723,
+      "fpr_mean": 0.065,
+      "fpr_std": 0.016211107303327556,
+      "n_seeds": 5
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.9911667111111111,
+      "auroc_std": 0.0012745702226027104,
+      "fpr_mean": 0.0392,
+      "fpr_std": 0.007547184905645283,
+      "n_seeds": 5
+    }
+  },
+  "vit_cifar10_svhn": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9997189439999999,
+      "auroc_std": 0.0001598060486464645,
+      "fpr_mean": 4e-05,
+      "fpr_std": 4.898979485566357e-05,
+      "n_seeds": 5
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.99971896,
+      "auroc_std": 0.0001598413748689467,
+      "fpr_mean": 4e-05,
+      "fpr_std": 4.898979485566357e-05,
+      "n_seeds": 5
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.99873562,
+      "auroc_std": 0.0004383309903714444,
+      "fpr_mean": 0.00282,
+      "fpr_std": 0.0008109253973085317,
+      "n_seeds": 5
+    }
+  }
+}

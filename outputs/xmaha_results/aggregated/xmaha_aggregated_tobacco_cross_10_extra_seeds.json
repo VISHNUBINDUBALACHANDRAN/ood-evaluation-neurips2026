@@ -1,0 +1,25 @@
+{
+  "layoutlmv3_tobacco_cross": {
+    "xmaha_uniform": {
+      "auroc_mean": 0.9180245574057304,
+      "auroc_std": 0.010928421578550888,
+      "fpr_mean": 0.6302716225875626,
+      "fpr_std": 0.11020692026403213,
+      "n_seeds": 10
+    },
+    "xmaha_optimized": {
+      "auroc_mean": 0.9180806027670924,
+      "auroc_std": 0.011023392495301834,
+      "fpr_mean": 0.6299499642601859,
+      "fpr_std": 0.11047490473209201,
+      "n_seeds": 10
+    },
+    "mahalanobis_last_layer": {
+      "auroc_mean": 0.8919916665213827,
+      "auroc_std": 0.021628539056220215,
+      "fpr_mean": 0.6918513223731236,
+      "fpr_std": 0.10255319058450335,
+      "n_seeds": 10
+    }
+  }
+}

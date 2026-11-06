@@ -1,0 +1,60 @@
+Apache License 2.0 (CODE) AND Creative Commons Attribution 4.0 International (DOCUMENTATION, EVALUATION OUTPUTS, SPLIT CONFIGS)
+=================================================================================================================================
+
+Copyright (c) 2026 Vishnu Bindu Balachandran.
+
+This release is **dual-licensed**:
+
+  1. All source CODE in this repository — including Python files (`run_*.py`), shell scripts (`run_*.sh`), and library modules (`configs/`, `models/`, `ood_methods/`, `evaluation/`, `utils/`) — is released under the **Apache License, Version 2.0**.
+
+  2. All non-code artifacts — including this datasheet, README, REPRODUCTION guide, ETHICS, AUTHOR_STATEMENT, MODEL_CHECKPOINTS, manifests, fixed split configurations (JSON), per-seed AUROC and FPR@95 result files, and AHM-mask configuration files (NOT the model weights themselves) — are released under the **Creative Commons Attribution 4.0 International** license (CC-BY-4.0).
+
+  3. Pre-trained model checkpoints distributed via Zenodo follow the originating backbone licenses: **CC-BY-4.0** for ViT-B/16, RoBERTa-base and RoBERTa-large fine-tunes (whose backbones are Apache-2.0, MIT and MIT respectively, all CC-BY-4.0-compatible); **CC-BY-NC-SA-4.0 (non-commercial, share-alike, research-only) for LayoutLMv3-base and all LayoutLMv3 fine-tuned derivatives** (license inherited from the upstream `microsoft/layoutlmv3-base` checkpoint and propagated under share-alike). Downstream users redistributing or building on the LayoutLMv3 fine-tunes must adopt CC-BY-NC-SA-4.0 and must not use them in commercial products.
+
+Source datasets (CIFAR-10, CIFAR-100, SVHN, DTD, SST-2, MultiNLI, AG News, 20 Newsgroups, FinanceDocs, Tobacco-3482) are NOT redistributed by this release. Users must download them from canonical sources (see DATA_ACCESS.md) and comply with each source license independently.
+
+================================================================================
+                       Apache License, Version 2.0 (CODE)
+================================================================================
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+(Full Apache 2.0 text as above.)
+
+================================================================================
+   Creative Commons Attribution 4.0 International (DOCS / OUTPUTS / CONFIGS)
+================================================================================
+
+   This work is licensed under the Creative Commons Attribution 4.0
+   International License. To view a copy of this license, visit
+   http://creativecommons.org/licenses/by/4.0/.
+
+   You are free to:
+     Share — copy and redistribute the material in any medium or format
+     Adapt — remix, transform, and build upon the material for any purpose,
+     even commercially.
+
+   Under the following terms:
+     Attribution — You must give appropriate credit, provide a link to the
+     license, and indicate if changes were made. You may do so in any
+     reasonable manner, but not in any way that suggests the licensor
+     endorses you or your use.
+
+   When citing this audit, please cite both this paper and the AHM method
+   paper (Constantinou et al., arXiv:2408.11237; Scientific Reports 16:2449,
+   2026), since the AHM masks and the AHM-augmented distance methods
+   evaluated here originated in that work.

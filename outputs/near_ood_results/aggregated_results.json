@@ -1,0 +1,262 @@
+[
+  {
+    "experiment": "financedocs_near",
+    "seed": 42,
+    "description": "sec_form (ID) vs sec_letter (OOD) \u2014 same domain near-OOD",
+    "n_id_eval": 25,
+    "n_ood": 141,
+    "ahss": {
+      "auroc": 0.4085106382978724,
+      "fpr_at_95": 0.7163120567375887
+    },
+    "mahalanobis": {
+      "auroc": 0.6956028368794327,
+      "fpr_at_95": 0.9787234042553191
+    },
+    "knn": {
+      "auroc": 0.8547517730496454,
+      "fpr_at_95": 0.7446808510638298
+    },
+    "combined": {
+      "auroc": 0.6956028368794327,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 80.75731825828552,
+    "timestamp": "2026-03-20 10:55:36"
+  },
+  {
+    "experiment": "financedocs_near",
+    "seed": 123,
+    "description": "sec_form (ID) vs sec_letter (OOD) \u2014 same domain near-OOD",
+    "n_id_eval": 25,
+    "n_ood": 141,
+    "ahss": {
+      "auroc": 0.8218439716312057,
+      "fpr_at_95": 0.9290780141843972
+    },
+    "mahalanobis": {
+      "auroc": 0.5529078014184398,
+      "fpr_at_95": 0.9645390070921985
+    },
+    "knn": {
+      "auroc": 0.5114893617021277,
+      "fpr_at_95": 1.0
+    },
+    "combined": {
+      "auroc": 0.8218439716312057,
+      "best_alpha": 0.0
+    },
+    "delta_from_mah": 0.26893617021276595,
+    "elapsed_seconds": 84.09246945381165,
+    "timestamp": "2026-03-20 10:57:00"
+  },
+  {
+    "experiment": "financedocs_near",
+    "seed": 456,
+    "description": "sec_form (ID) vs sec_letter (OOD) \u2014 same domain near-OOD",
+    "n_id_eval": 25,
+    "n_ood": 141,
+    "ahss": {
+      "auroc": 0.7651063829787235,
+      "fpr_at_95": 0.7021276595744681
+    },
+    "mahalanobis": {
+      "auroc": 0.8476595744680852,
+      "fpr_at_95": 0.7730496453900709
+    },
+    "knn": {
+      "auroc": 0.9236879432624114,
+      "fpr_at_95": 0.5602836879432624
+    },
+    "combined": {
+      "auroc": 0.8485106382978723,
+      "best_alpha": 0.9
+    },
+    "delta_from_mah": 0.0008510638297871687,
+    "elapsed_seconds": 82.4090929031372,
+    "timestamp": "2026-03-20 10:58:23"
+  },
+  {
+    "experiment": "financedocs_near",
+    "seed": 789,
+    "description": "sec_form (ID) vs sec_letter (OOD) \u2014 same domain near-OOD",
+    "n_id_eval": 25,
+    "n_ood": 141,
+    "ahss": {
+      "auroc": 0.31971631205673756,
+      "fpr_at_95": 0.9929078014184397
+    },
+    "mahalanobis": {
+      "auroc": 0.6763120567375888,
+      "fpr_at_95": 0.9432624113475178
+    },
+    "knn": {
+      "auroc": 0.7965957446808511,
+      "fpr_at_95": 0.9858156028368794
+    },
+    "combined": {
+      "auroc": 0.6763120567375888,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 82.47219944000244,
+    "timestamp": "2026-03-20 10:59:45"
+  },
+  {
+    "experiment": "financedocs_near",
+    "seed": 1024,
+    "description": "sec_form (ID) vs sec_letter (OOD) \u2014 same domain near-OOD",
+    "n_id_eval": 25,
+    "n_ood": 141,
+    "ahss": {
+      "auroc": 0.7829787234042552,
+      "fpr_at_95": 0.5177304964539007
+    },
+    "mahalanobis": {
+      "auroc": 0.8136170212765957,
+      "fpr_at_95": 0.9219858156028369
+    },
+    "knn": {
+      "auroc": 0.8493617021276596,
+      "fpr_at_95": 0.8723404255319149
+    },
+    "combined": {
+      "auroc": 0.8374468085106384,
+      "best_alpha": 0.5
+    },
+    "delta_from_mah": 0.02382978723404261,
+    "elapsed_seconds": 86.35671377182007,
+    "timestamp": "2026-03-20 11:01:12"
+  },
+  {
+    "experiment": "tobacco_near",
+    "seed": 42,
+    "description": "Letter (ID) vs Memo (OOD) \u2014 same type family near-OOD",
+    "n_id_eval": 114,
+    "n_ood": 620,
+    "ahss": {
+      "auroc": 0.04591114883984154,
+      "fpr_at_95": 0.9790322580645161
+    },
+    "mahalanobis": {
+      "auroc": 0.4957838143746463,
+      "fpr_at_95": 0.9370967741935484
+    },
+    "knn": {
+      "auroc": 0.5823712507074137,
+      "fpr_at_95": 0.853225806451613
+    },
+    "combined": {
+      "auroc": 0.4957838143746463,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 483.4835286140442,
+    "timestamp": "2026-03-20 11:09:15"
+  },
+  {
+    "experiment": "tobacco_near",
+    "seed": 123,
+    "description": "Letter (ID) vs Memo (OOD) \u2014 same type family near-OOD",
+    "n_id_eval": 114,
+    "n_ood": 620,
+    "ahss": {
+      "auroc": 0.04837294850028295,
+      "fpr_at_95": 0.9903225806451613
+    },
+    "mahalanobis": {
+      "auroc": 0.5292869269949066,
+      "fpr_at_95": 0.964516129032258
+    },
+    "knn": {
+      "auroc": 0.6864035087719299,
+      "fpr_at_95": 0.9338709677419355
+    },
+    "combined": {
+      "auroc": 0.5292869269949066,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 491.7685515880585,
+    "timestamp": "2026-03-20 11:17:27"
+  },
+  {
+    "experiment": "tobacco_near",
+    "seed": 456,
+    "description": "Letter (ID) vs Memo (OOD) \u2014 same type family near-OOD",
+    "n_id_eval": 114,
+    "n_ood": 620,
+    "ahss": {
+      "auroc": 0.054668930390492365,
+      "fpr_at_95": 0.9854838709677419
+    },
+    "mahalanobis": {
+      "auroc": 0.7192558007923033,
+      "fpr_at_95": 0.9016129032258065
+    },
+    "knn": {
+      "auroc": 0.8285795132993776,
+      "fpr_at_95": 0.7935483870967742
+    },
+    "combined": {
+      "auroc": 0.7192558007923033,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 510.88890051841736,
+    "timestamp": "2026-03-20 11:25:58"
+  },
+  {
+    "experiment": "tobacco_near",
+    "seed": 789,
+    "description": "Letter (ID) vs Memo (OOD) \u2014 same type family near-OOD",
+    "n_id_eval": 114,
+    "n_ood": 620,
+    "ahss": {
+      "auroc": 0.02750424448217317,
+      "fpr_at_95": 0.9919354838709677
+    },
+    "mahalanobis": {
+      "auroc": 0.7223825693265421,
+      "fpr_at_95": 0.8806451612903226
+    },
+    "knn": {
+      "auroc": 0.7867572156196945,
+      "fpr_at_95": 0.9096774193548387
+    },
+    "combined": {
+      "auroc": 0.7223825693265421,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 490.7585208415985,
+    "timestamp": "2026-03-20 11:34:09"
+  },
+  {
+    "experiment": "tobacco_near",
+    "seed": 1024,
+    "description": "Letter (ID) vs Memo (OOD) \u2014 same type family near-OOD",
+    "n_id_eval": 114,
+    "n_ood": 620,
+    "ahss": {
+      "auroc": 0.16583191850594226,
+      "fpr_at_95": 0.9967741935483871
+    },
+    "mahalanobis": {
+      "auroc": 0.30631013016412,
+      "fpr_at_95": 0.9758064516129032
+    },
+    "knn": {
+      "auroc": 0.28471986417657047,
+      "fpr_at_95": 0.9774193548387097
+    },
+    "combined": {
+      "auroc": 0.30631013016412,
+      "best_alpha": 1.0
+    },
+    "delta_from_mah": 0.0,
+    "elapsed_seconds": 527.2889807224274,
+    "timestamp": "2026-03-20 11:42:57"
+  }
+]

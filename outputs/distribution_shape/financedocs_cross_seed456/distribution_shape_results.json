@@ -1,0 +1,92 @@
+{
+  "experiment": "financedocs_cross_seed456",
+  "dataset": "financedocs",
+  "experiment_type": "cross",
+  "seed": 456,
+  "num_masks": 30,
+  "individual_features": {
+    "mean": {
+      "name": "FSP_mean",
+      "auroc": 0.9524795889062114,
+      "fpr_at_95": 0.22113727742676623,
+      "id_mean": 0.26458616909754556,
+      "id_std": 0.09790737374067122,
+      "id_median": 0.2473298988779435,
+      "ood_mean": 0.5643775899064372,
+      "ood_std": 0.15816780338994427,
+      "ood_median": 0.5642043695746672,
+      "mann_whitney_u": 92661.0,
+      "mann_whitney_p": 1.1507434038653525e-259,
+      "significant": true
+    },
+    "variance": {
+      "name": "FSP_variance",
+      "auroc": 0.84586444572085,
+      "fpr_at_95": 0.648190695002872,
+      "id_mean": 0.044166084785631,
+      "id_std": 0.04009257422893458,
+      "id_median": 0.02968775884581044,
+      "ood_mean": 0.09969593444925032,
+      "ood_std": 0.05134342365645642,
+      "ood_median": 0.09417047280805077,
+      "mann_whitney_u": 300552.0,
+      "mann_whitney_p": 1.4004287481619094e-152,
+      "significant": true
+    },
+    "skewness": {
+      "name": "FSP_skewness",
+      "auroc": 0.40687874374333305,
+      "fpr_at_95": 0.9781734635267088,
+      "id_mean": 1.1942298877740294,
+      "id_std": 0.5563966520528025,
+      "id_median": 1.0675645313048303,
+      "ood_mean": 1.003377603679288,
+      "ood_std": 0.5333900198193627,
+      "ood_median": 0.9579247645630127,
+      "mann_whitney_u": 1156539.0,
+      "mann_whitney_p": 1.3978444621459994e-12,
+      "significant": true
+    },
+    "kurtosis": {
+      "name": "FSP_kurtosis",
+      "auroc": 0.488473886108148,
+      "fpr_at_95": 0.9735784032165422,
+      "id_mean": 0.949829056488082,
+      "id_std": 1.9861200995169896,
+      "id_median": 0.3217338698815764,
+      "ood_mean": 0.8312910391475421,
+      "ood_std": 1.8179307889009926,
+      "ood_median": 0.36822544111849353,
+      "mann_whitney_u": 997435.0,
+      "mann_whitney_p": 0.38057350079703556,
+      "significant": false
+    }
+  },
+  "combined": {
+    "name": "FSP_combined",
+    "auroc": 0.9524795889062114,
+    "fpr_at_95": 0.22113727742676623,
+    "selected_features": [
+      "mean"
+    ]
+  },
+  "fsp_variance_mah_combined": {
+    "auroc": 0.9987445638795438,
+    "best_alpha": 1.0,
+    "mah_only_auroc": 0.9987445638795438
+  },
+  "displacement_stats": {
+    "eval_shape": [
+      560,
+      30
+    ],
+    "ood_shape": [
+      3482,
+      30
+    ],
+    "eval_disp_global_mean": 0.26458616909754556,
+    "ood_disp_global_mean": 0.5643775899064373
+  },
+  "elapsed_seconds": 3673.690082550049,
+  "timestamp": "2026-03-20 02:24:08"
+}

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Auditing Attention Head Masking for Out-of-Distribution Detection: Cross-Architecture Failures and Polarity Inversions"
+type: software
+version: 1.0.0
+date-released: 2026-11-06
+license: Apache-2.0
+repository-code: "https://github.com/VISHNUBINDUBALACHANDRAN/ood-evaluation-neurips2026"
+authors:
+  - family-names: Balachandran
+    given-names: Vishnu Bindu
+    website: "https://www.vishnubindubalachandran.com"
+keywords:
+  - out-of-distribution detection
+  - attention head masking
+  - transformers
+  - evaluation
+preferred-citation:
+  type: conference-paper
+  title: "Auditing Attention Head Masking for Out-of-Distribution Detection: Cross-Architecture Failures and Polarity Inversions"
+  authors:
+    - family-names: Balachandran
+      given-names: Vishnu Bindu
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track"
+  year: 2026
+  url: "https://openreview.net/forum?id=bqTe5C6VVH"
+references:
+  - type: dataset
+    title: "Fine-tuned transformer checkpoints for a cross-architecture audit of attention-head-masking OOD detection (NeurIPS 2026)"
+    authors:
+      - family-names: Balachandran
+        given-names: Vishnu Bindu
+    publisher:
+      name: Zenodo
+    version: 1.0.0
+    year: 2026
+    doi: 10.5281/zenodo.23338711

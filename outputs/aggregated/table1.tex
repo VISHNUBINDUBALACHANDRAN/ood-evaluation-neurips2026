@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{OOD detection performance (AUROC / FPR@95TPR) on document benchmarks. Mean $\pm$ std over 5 seeds. Best AUROC per row in \textbf{bold}.}
+\label{tab:main_results}
+\begin{tabular}{lcccc}
+\toprule
+Experiment & AHSS (Ours) & MC-Dropout & Mahalanobis & kNN \\
+\midrule
+FinDocs-Intra & $0.931_{0.054}$/$0.249$ & $0.803_{0.009}$/$0.568$ & \textbf{$0.976_{0.006}$/$0.094$} & $0.969_{0.013}$/$0.167$ \\
+FinDocs-Cross & -- & -- & -- & -- \\
+Tobacco-Intra & -- & -- & -- & -- \\
+Tobacco-Cross & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

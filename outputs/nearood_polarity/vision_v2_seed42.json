@@ -1,0 +1,48 @@
+[
+  {
+    "modality": "vision",
+    "architecture": "ViT-B/16",
+    "id_set": "cifar100_small_mammals",
+    "config": "near_squirrel",
+    "regime": "near",
+    "seed": 42,
+    "n_id": 200,
+    "n_ood": 600,
+    "elapsed_seconds": 8.024731636047363,
+    "mahalanobis": {
+      "auroc": 0.9176333333333334,
+      "fpr_at_95": 0.5883333333333334
+    },
+    "knn": {
+      "auroc": 0.9509833333333333,
+      "fpr_at_95": 0.31666666666666665
+    },
+    "ahss": {
+      "auroc": 0.7237416666666667,
+      "fpr_at_95": 0.8783333333333333
+    }
+  },
+  {
+    "modality": "vision",
+    "architecture": "ViT-B/16",
+    "id_set": "cifar100_small_mammals",
+    "config": "far_rocket",
+    "regime": "far",
+    "seed": 42,
+    "n_id": 200,
+    "n_ood": 600,
+    "elapsed_seconds": 3.8505699634552,
+    "mahalanobis": {
+      "auroc": 0.9995666666666666,
+      "fpr_at_95": 0.0016666666666666668
+    },
+    "knn": {
+      "auroc": 0.9978583333333333,
+      "fpr_at_95": 0.0033333333333333335
+    },
+    "ahss": {
+      "auroc": 0.5866416666666667,
+      "fpr_at_95": 0.9366666666666666
+    }
+  }
+]

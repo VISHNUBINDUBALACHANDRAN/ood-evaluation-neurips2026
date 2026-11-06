@@ -1,0 +1,67 @@
+{
+  "dataset": "financedocs",
+  "experiment_type": "cross",
+  "seed": 42,
+  "num_masks": 25,
+  "mask_sources": [
+    "ahm_best_0",
+    "ahm_best_1",
+    "ahm_best_2",
+    "ahm_best_3",
+    "ahm_best_4",
+    "random_p0.1_0",
+    "random_p0.1_1",
+    "random_p0.1_2",
+    "random_p0.1_3",
+    "random_p0.1_4",
+    "random_p0.1_5",
+    "random_p0.1_6",
+    "random_p0.1_7",
+    "random_p0.1_8",
+    "random_p0.1_9",
+    "random_p0.2_0",
+    "random_p0.2_1",
+    "random_p0.2_2",
+    "random_p0.2_3",
+    "random_p0.2_4",
+    "random_p0.2_5",
+    "random_p0.2_6",
+    "random_p0.2_7",
+    "random_p0.2_8",
+    "random_p0.2_9"
+  ],
+  "id_ahss_mean": 0.15259813895021793,
+  "id_ahss_std": 0.05395880809923879,
+  "id_ahss_median": 0.13928695694042723,
+  "ood_ahss_mean": 0.41100764136971796,
+  "ood_ahss_std": 0.1397256219343564,
+  "ood_ahss_median": 0.40045946038583613,
+  "separation_ratio": 2.6933987788308547,
+  "results": [
+    {
+      "method": "AHSS",
+      "auroc": 0.9743292032493642,
+      "fpr": 0.12492820218265364
+    },
+    {
+      "method": "Mahalanobis",
+      "auroc": 0.9985753261672273,
+      "fpr": 0.0005743825387708214
+    },
+    {
+      "method": "kNN",
+      "auroc": 0.9970583408550094,
+      "fpr": 0.003733486502010339
+    },
+    {
+      "method": "AHSS+Mah(\u03b1=1.0)",
+      "auroc": 0.9985753261672273,
+      "fpr": 0.0005743825387708214
+    },
+    {
+      "method": "AHSS+kNN(\u03b1=1.0)",
+      "auroc": 0.9970583408550094,
+      "fpr": 0.003733486502010339
+    }
+  ]
+}

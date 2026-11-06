@@ -1,0 +1,34 @@
+# Python dependencies, pinned to the versions of the environment that produced the reported results
+# (Python 3.9, Linux x86_64, one 80 GB GPU, CUDA 12.9 driver).
+# The reference runs used the CUDA 12.1 builds (torch 2.5.1+cu121, torchvision 0.20.1+cu121); for another CUDA
+# version install the matching torch 2.5.1 / torchvision 0.20.1 build from https://pytorch.org.
+
+# ----- Deep learning core -----
+torch==2.5.1
+torchvision==0.20.1
+
+# ----- Hugging Face stack -----
+transformers==4.57.6
+tokenizers==0.22.2
+datasets==4.5.0
+huggingface-hub==0.36.2
+accelerate==1.10.1
+evaluate==0.4.6
+safetensors==0.7.0
+
+# ----- Numerics and statistics -----
+numpy==2.0.2
+scipy==1.13.1
+pandas==2.3.3
+scikit-learn==1.6.1
+pyarrow==21.0.0
+
+# ----- Imaging / OCR -----
+Pillow==11.3.0
+pytesseract==0.3.13    # OCR in run_prepare_data.py; also needs the Tesseract binary
+
+# ----- Utilities -----
+tqdm==4.67.3
+
+# The LayoutLMv3 leave-class-out checkpoints (train_leave_class_out.py) were trained with transformers==4.28.0
+# (with a tokenizers version it supports, < 0.14); use that version to reproduce those checkpoints exactly.

@@ -1,0 +1,25 @@
+{
+  "auroc": 0.9594449591685226,
+  "fpr_at_95": 0.2518,
+  "n_masks": 25,
+  "train_shape": [
+    60614,
+    768
+  ],
+  "eval_shape": [
+    6735,
+    768
+  ],
+  "ood_shape": [
+    5000,
+    768
+  ],
+  "train_fitting": "unmasked_avgavg",
+  "eval_ood_scoring": "masked_avgavg_averaged",
+  "experiment": "sst2_agnews",
+  "seed": 456,
+  "architecture": "roberta",
+  "method": "mahAvgAvg_AHM",
+  "elapsed_seconds": 597.7656078338623,
+  "timestamp": "2026-04-28 06:05:32"
+}

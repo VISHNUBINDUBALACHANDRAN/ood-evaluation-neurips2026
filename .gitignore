@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Datasets (downloaded locally; see DATA_ACCESS.md)
+data/
+
+# Fine-tuned weights and large intermediates, created locally when training or when the
+# Zenodo checkpoints are unzipped into outputs/ (see MODEL_CHECKPOINTS.md)
+outputs/checkpoints/*/best_model/
+outputs/checkpoints/*/checkpoint-*/
+outputs/vit_checkpoints/
+outputs/cifar100_checkpoints/
+outputs/roberta_checkpoints/
+outputs/nearood_polarity/*/
+outputs/embeddings/
+
+# Logs
+logs*/
+*.log

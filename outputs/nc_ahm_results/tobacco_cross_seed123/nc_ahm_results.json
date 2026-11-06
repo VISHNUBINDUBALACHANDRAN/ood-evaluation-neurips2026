@@ -1,0 +1,36 @@
+{
+  "experiment": "tobacco_cross_seed123",
+  "dataset": "tobacco",
+  "experiment_type": "cross",
+  "seed": 123,
+  "nc_ahm": {
+    "ahss_auroc": 0.7563575335118443,
+    "ahss_fpr95": 0.6451036454610436,
+    "combined_auroc": 0.8206148478673534,
+    "combined_alpha": 1.0,
+    "num_masks": 5
+  },
+  "random": {
+    "ahss_auroc": 0.5631635837444865,
+    "ahss_fpr95": 0.8473909935668335,
+    "combined_auroc": 0.8206148478673534,
+    "combined_alpha": 1.0,
+    "num_masks": 5
+  },
+  "ahm": {
+    "ahss_auroc": 0.8519628182868886,
+    "ahss_fpr95": 0.6115082201572551,
+    "combined_auroc": 0.8536321291186675,
+    "combined_alpha": 0.2,
+    "num_masks": 5
+  },
+  "dahm": {
+    "ahss_auroc": 0.5489368815396938,
+    "ahss_fpr95": 0.8809864188706219,
+    "combined_auroc": 0.8206148478673534,
+    "combined_alpha": 1.0,
+    "num_masks": 4
+  },
+  "elapsed_seconds": 4311.140752792358,
+  "timestamp": "2026-03-21 03:07:10"
+}

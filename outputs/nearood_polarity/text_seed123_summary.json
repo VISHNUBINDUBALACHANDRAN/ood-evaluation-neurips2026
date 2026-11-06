@@ -1,0 +1,36 @@
+{
+  "text|far_talk_politics": {
+    "regime": "far",
+    "id_set": "20news_comp_LONG",
+    "n_seeds": 1,
+    "mahalanobis": {
+      "auroc_mean": 0.9923557692307693,
+      "auroc_std": 0.0
+    },
+    "knn": {
+      "auroc_mean": 0.9824225427350427,
+      "auroc_std": 0.0
+    },
+    "ahss": {
+      "auroc_mean": 0.275892094017094,
+      "auroc_std": 0.0
+    }
+  },
+  "text|near_sci_electronics": {
+    "regime": "near",
+    "id_set": "20news_comp_LONG",
+    "n_seeds": 1,
+    "mahalanobis": {
+      "auroc_mean": 0.8442708333333333,
+      "auroc_std": 0.0
+    },
+    "knn": {
+      "auroc_mean": 0.8216212606837607,
+      "auroc_std": 0.0
+    },
+    "ahss": {
+      "auroc_mean": 0.6600320512820513,
+      "auroc_std": 0.0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "vision|far_rocket": {
+    "regime": "far",
+    "id_set": "cifar100_small_mammals",
+    "n_seeds": 1,
+    "mahalanobis": {
+      "auroc_mean": 0.9971666666666668,
+      "auroc_std": 0.0
+    },
+    "knn": {
+      "auroc_mean": 0.9899583333333333,
+      "auroc_std": 0.0
+    },
+    "ahss": {
+      "auroc_mean": 0.6050500000000001,
+      "auroc_std": 0.0
+    }
+  },
+  "vision|near_squirrel": {
+    "regime": "near",
+    "id_set": "cifar100_small_mammals",
+    "n_seeds": 1,
+    "mahalanobis": {
+      "auroc_mean": 0.9199666666666667,
+      "auroc_std": 0.0
+    },
+    "knn": {
+      "auroc_mean": 0.9242750000000001,
+      "auroc_std": 0.0
+    },
+    "ahss": {
+      "auroc_mean": 0.6907833333333333,
+      "auroc_std": 0.0
+    }
+  }
+}

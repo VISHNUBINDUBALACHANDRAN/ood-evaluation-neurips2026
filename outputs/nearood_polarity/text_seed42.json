@@ -1,0 +1,48 @@
+[
+  {
+    "modality": "text",
+    "architecture": "RoBERTa-base",
+    "id_set": "20news_comp_LONG",
+    "config": "near_sci_electronics",
+    "regime": "near",
+    "seed": 42,
+    "n_id": 468,
+    "n_ood": 800,
+    "elapsed_seconds": 3.697284460067749,
+    "mahalanobis": {
+      "auroc": 0.8524225427350428,
+      "fpr_at_95": 0.72125
+    },
+    "knn": {
+      "auroc": 0.8417922008547009,
+      "fpr_at_95": 0.7075
+    },
+    "ahss": {
+      "auroc": 0.7400133547008547,
+      "fpr_at_95": 0.91875
+    }
+  },
+  {
+    "modality": "text",
+    "architecture": "RoBERTa-base",
+    "id_set": "20news_comp_LONG",
+    "config": "far_talk_politics",
+    "regime": "far",
+    "seed": 42,
+    "n_id": 468,
+    "n_ood": 800,
+    "elapsed_seconds": 5.450631141662598,
+    "mahalanobis": {
+      "auroc": 0.9931356837606837,
+      "fpr_at_95": 0.02125
+    },
+    "knn": {
+      "auroc": 0.9833707264957264,
+      "fpr_at_95": 0.03375
+    },
+    "ahss": {
+      "auroc": 0.25187232905982904,
+      "fpr_at_95": 0.99375
+    }
+  }
+]

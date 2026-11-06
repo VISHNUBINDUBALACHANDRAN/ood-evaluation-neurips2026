@@ -1,0 +1,34 @@
+[
+  {
+    "name": "roberta-base bs128",
+    "samples": 768,
+    "per_s_attn_true": 103.30991192267841,
+    "per_s_attn_false": 99.35266666901074,
+    "hidden_identical_bitwise": true,
+    "max_abs_diff": 0.0
+  },
+  {
+    "name": "roberta-large bs64",
+    "samples": 384,
+    "per_s_attn_true": 30.07401229469528,
+    "per_s_attn_false": 29.777533411409536,
+    "hidden_identical_bitwise": true,
+    "max_abs_diff": 0.0
+  },
+  {
+    "name": "vit bs128",
+    "samples": 512,
+    "per_s_attn_true": 61.132678536393676,
+    "per_s_attn_false": 61.15876937423465,
+    "hidden_identical_bitwise": true,
+    "max_abs_diff": 0.0
+  },
+  {
+    "name": "layoutlmv3 bs16",
+    "samples": 64,
+    "per_s_attn_true": 2.142197817728711,
+    "per_s_attn_false": 6.244455689493535,
+    "hidden_identical_bitwise": true,
+    "max_abs_diff": 0.0
+  }
+]

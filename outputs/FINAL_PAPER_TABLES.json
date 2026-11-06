@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-21 16:13:24",
+  "layoutlmv3_experiments": {},
+  "vit_experiments": [
+    "cifar10_intra (5 seeds)",
+    "cifar10_svhn (5 seeds)"
+  ]
+}

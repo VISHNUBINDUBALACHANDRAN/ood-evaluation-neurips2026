@@ -1,0 +1,722 @@
+[
+  {
+    "experiment": "financedocs_intra_seed42",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 42,
+    "nc_ahm": {
+      "ahss_auroc": 0.9286995795263263,
+      "ahss_fpr95": 0.2682926829268293,
+      "combined_auroc": 0.9703590304860731,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9938141187716905,
+      "ahss_fpr95": 0.020905923344947737,
+      "combined_auroc": 0.9938141187716905,
+      "combined_alpha": 0.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9505822209599546,
+      "ahss_fpr95": 0.32752613240418116,
+      "combined_auroc": 0.9716613212709804,
+      "combined_alpha": 0.8,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9035404298945007,
+      "ahss_fpr95": 0.4843205574912892,
+      "combined_auroc": 0.9703590304860731,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2355.86004281044,
+    "timestamp": "2026-03-20 11:44:52"
+  },
+  {
+    "experiment": "financedocs_intra_seed123",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 123,
+    "nc_ahm": {
+      "ahss_auroc": 0.9071078753957094,
+      "ahss_fpr95": 0.25435540069686413,
+      "combined_auroc": 0.9834685268181849,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.8450135424387473,
+      "ahss_fpr95": 0.5087108013937283,
+      "combined_auroc": 0.982741183560657,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.8543096819778195,
+      "ahss_fpr95": 0.4634146341463415,
+      "combined_auroc": 0.9828693345155548,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.8455677087301973,
+      "ahss_fpr95": 0.46689895470383275,
+      "combined_auroc": 0.9829212876053782,
+      "combined_alpha": 0.9,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 1149.336312532425,
+    "timestamp": "2026-03-20 12:04:02"
+  },
+  {
+    "experiment": "financedocs_intra_seed456",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 456,
+    "nc_ahm": {
+      "ahss_auroc": 0.9037482422537944,
+      "ahss_fpr95": 0.3310104529616725,
+      "combined_auroc": 0.9732233775050048,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.8040745076578855,
+      "ahss_fpr95": 0.3693379790940767,
+      "combined_auroc": 0.9743282465485831,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9625314316193432,
+      "ahss_fpr95": 0.13937282229965156,
+      "combined_auroc": 0.9798733730024036,
+      "combined_alpha": 0.6000000000000001,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9333476492958626,
+      "ahss_fpr95": 0.4425087108013937,
+      "combined_auroc": 0.9734173357070124,
+      "combined_alpha": 0.8,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2513.0921926498413,
+    "timestamp": "2026-03-20 12:45:55"
+  },
+  {
+    "experiment": "financedocs_intra_seed789",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 789,
+    "nc_ahm": {
+      "ahss_auroc": 0.9022035037163777,
+      "ahss_fpr95": 0.3519163763066202,
+      "combined_auroc": 0.9511017518581888,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9442023815296374,
+      "ahss_fpr95": 0.3240418118466899,
+      "combined_auroc": 0.9627565616752445,
+      "combined_alpha": 0.6000000000000001,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9543505517418139,
+      "ahss_fpr95": 0.20209059233449478,
+      "combined_auroc": 0.9626734367315273,
+      "combined_alpha": 0.5,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9204217205477934,
+      "ahss_fpr95": 0.3170731707317073,
+      "combined_auroc": 0.9530586515748712,
+      "combined_alpha": 0.8,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2554.3390843868256,
+    "timestamp": "2026-03-20 13:28:30"
+  },
+  {
+    "experiment": "financedocs_intra_seed1024",
+    "dataset": "financedocs",
+    "experiment_type": "intra",
+    "seed": 1024,
+    "nc_ahm": {
+      "ahss_auroc": 0.9956220862975458,
+      "ahss_fpr95": 0.017421602787456445,
+      "combined_auroc": 0.9962697681506779,
+      "combined_alpha": 0.4,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.940759623444005,
+      "ahss_fpr95": 0.44947735191637633,
+      "combined_auroc": 0.9959926850049529,
+      "combined_alpha": 0.8,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9850375101308525,
+      "ahss_fpr95": 0.05574912891986063,
+      "combined_auroc": 0.9956151592189026,
+      "combined_alpha": 0.7000000000000001,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9709409050920955,
+      "ahss_fpr95": 0.13588850174216027,
+      "combined_auroc": 0.9951787532643858,
+      "combined_alpha": 0.8,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2527.111563205719,
+    "timestamp": "2026-03-20 14:10:37"
+  },
+  {
+    "experiment": "financedocs_cross_seed42",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 42,
+    "nc_ahm": {
+      "ahss_auroc": 0.9833116230409453,
+      "ahss_fpr95": 0.11631246410109132,
+      "combined_auroc": 0.9985753261672273,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9575859522441945,
+      "ahss_fpr95": 0.3012636415852958,
+      "combined_auroc": 0.9985753261672273,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.985524021498318,
+      "ahss_fpr95": 0.05485353245261344,
+      "combined_auroc": 0.9985753261672273,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9699572290145237,
+      "ahss_fpr95": 0.10855829982768524,
+      "combined_auroc": 0.9985753261672273,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4855.310139417648,
+    "timestamp": "2026-03-20 15:31:32"
+  },
+  {
+    "experiment": "financedocs_cross_seed123",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 123,
+    "nc_ahm": {
+      "ahss_auroc": 0.9857809551161074,
+      "ahss_fpr95": 0.04192992533026996,
+      "combined_auroc": 0.9957711085582999,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9698582505948962,
+      "ahss_fpr95": 0.18351522113727742,
+      "combined_auroc": 0.9957711085582999,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9734578854517109,
+      "ahss_fpr95": 0.07409534750143595,
+      "combined_auroc": 0.9957711085582999,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9629887379995079,
+      "ahss_fpr95": 0.13842619184376795,
+      "combined_auroc": 0.9957711085582999,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4836.080071687698,
+    "timestamp": "2026-03-20 16:52:09"
+  },
+  {
+    "experiment": "financedocs_cross_seed456",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 456,
+    "nc_ahm": {
+      "ahss_auroc": 0.9795119799786658,
+      "ahss_fpr95": 0.07323377369327973,
+      "combined_auroc": 0.9987445638795438,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9567100188725691,
+      "ahss_fpr95": 0.19270534175761056,
+      "combined_auroc": 0.9987445638795438,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9771370107491588,
+      "ahss_fpr95": 0.09563469270534176,
+      "combined_auroc": 0.9987445638795438,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9624456387954379,
+      "ahss_fpr95": 0.19012062033314187,
+      "combined_auroc": 0.9987445638795438,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4916.743159770966,
+    "timestamp": "2026-03-20 18:14:05"
+  },
+  {
+    "experiment": "financedocs_cross_seed789",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 789,
+    "nc_ahm": {
+      "ahss_auroc": 0.9714275457454665,
+      "ahss_fpr95": 0.10137851809304997,
+      "combined_auroc": 0.9947761959465004,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.8506692582259785,
+      "ahss_fpr95": 0.7765651924181505,
+      "combined_auroc": 0.9947761959465004,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9652739599573316,
+      "ahss_fpr95": 0.12062033314187248,
+      "combined_auroc": 0.9947761959465004,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.8985758390087799,
+      "ahss_fpr95": 0.34606547960941986,
+      "combined_auroc": 0.9947761959465004,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4843.531791448593,
+    "timestamp": "2026-03-20 19:34:49"
+  },
+  {
+    "experiment": "financedocs_cross_seed1024",
+    "dataset": "financedocs",
+    "experiment_type": "cross",
+    "seed": 1024,
+    "nc_ahm": {
+      "ahss_auroc": 0.9683263928776565,
+      "ahss_fpr95": 0.08730614589316485,
+      "combined_auroc": 0.9975696438828259,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9734891687864119,
+      "ahss_fpr95": 0.08127512923607122,
+      "combined_auroc": 0.9975696438828259,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9780811520472635,
+      "ahss_fpr95": 0.05198161975875933,
+      "combined_auroc": 0.9975696438828259,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9541632477229834,
+      "ahss_fpr95": 0.10425043078690407,
+      "combined_auroc": 0.9975696438828259,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4820.211237192154,
+    "timestamp": "2026-03-20 20:55:10"
+  },
+  {
+    "experiment": "tobacco_intra_seed42",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 42,
+    "nc_ahm": {
+      "ahss_auroc": 0.9471114673078207,
+      "ahss_fpr95": 0.20434782608695654,
+      "combined_auroc": 0.975095171308355,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.869378214118747,
+      "ahss_fpr95": 0.6217391304347826,
+      "combined_auroc": 0.975095171308355,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9315367661791223,
+      "ahss_fpr95": 0.4,
+      "combined_auroc": 0.975095171308355,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9276163761437253,
+      "ahss_fpr95": 0.4,
+      "combined_auroc": 0.975095171308355,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2775.999995946884,
+    "timestamp": "2026-03-20 21:41:26"
+  },
+  {
+    "experiment": "tobacco_intra_seed123",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 123,
+    "nc_ahm": {
+      "ahss_auroc": 0.8555332932612034,
+      "ahss_fpr95": 0.5130434782608696,
+      "combined_auroc": 0.9617244373205102,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.7459694116075603,
+      "ahss_fpr95": 0.8478260869565217,
+      "combined_auroc": 0.9617244373205102,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.8274026581179457,
+      "ahss_fpr95": 0.7,
+      "combined_auroc": 0.9617244373205102,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.8911373806184465,
+      "ahss_fpr95": 0.7521739130434782,
+      "combined_auroc": 0.9617244373205102,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2772.342797756195,
+    "timestamp": "2026-03-20 22:27:38"
+  },
+  {
+    "experiment": "tobacco_intra_seed456",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 456,
+    "nc_ahm": {
+      "ahss_auroc": 0.9454484739197222,
+      "ahss_fpr95": 0.2565217391304348,
+      "combined_auroc": 0.9710245107860815,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9292994055967407,
+      "ahss_fpr95": 0.4782608695652174,
+      "combined_auroc": 0.9729479730180992,
+      "combined_alpha": 0.8,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9314833366726775,
+      "ahss_fpr95": 0.45652173913043476,
+      "combined_auroc": 0.9713784812662792,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.9110198357042676,
+      "ahss_fpr95": 0.717391304347826,
+      "combined_auroc": 0.9710111534094703,
+      "combined_alpha": 0.9,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2748.2194719314575,
+    "timestamp": "2026-03-20 23:13:27"
+  },
+  {
+    "experiment": "tobacco_intra_seed789",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 789,
+    "nc_ahm": {
+      "ahss_auroc": 0.8935884592266078,
+      "ahss_fpr95": 0.46956521739130436,
+      "combined_auroc": 0.9662859814332465,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.7294730514926868,
+      "ahss_fpr95": 0.8782608695652174,
+      "combined_auroc": 0.9662859814332465,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9174180191010485,
+      "ahss_fpr95": 0.6304347826086957,
+      "combined_auroc": 0.9662859814332465,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.8740065451145395,
+      "ahss_fpr95": 0.8869565217391304,
+      "combined_auroc": 0.9662859814332465,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2732.1536984443665,
+    "timestamp": "2026-03-20 23:58:59"
+  },
+  {
+    "experiment": "tobacco_intra_seed1024",
+    "dataset": "tobacco",
+    "experiment_type": "intra",
+    "seed": 1024,
+    "nc_ahm": {
+      "ahss_auroc": 0.9100714619648702,
+      "ahss_fpr95": 0.5043478260869565,
+      "combined_auroc": 0.9781072597341882,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.9023776130367995,
+      "ahss_fpr95": 0.5217391304347826,
+      "combined_auroc": 0.9781072597341882,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.9106458291591532,
+      "ahss_fpr95": 0.5130434782608696,
+      "combined_auroc": 0.9781072597341882,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.8915381019167835,
+      "ahss_fpr95": 0.6086956521739131,
+      "combined_auroc": 0.9781072597341882,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 2719.0447754859924,
+    "timestamp": "2026-03-21 00:44:18"
+  },
+  {
+    "experiment": "tobacco_cross_seed42",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 42,
+    "nc_ahm": {
+      "ahss_auroc": 0.8100949335608648,
+      "ahss_fpr95": 0.6758398856325947,
+      "combined_auroc": 0.8478650460515453,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.7430471447631686,
+      "ahss_fpr95": 0.7176554681915654,
+      "combined_auroc": 0.8472899785971328,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.8383268229099899,
+      "ahss_fpr95": 0.5218012866333095,
+      "combined_auroc": 0.8564820844567189,
+      "combined_alpha": 0.5,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.8124223799947287,
+      "ahss_fpr95": 0.6279485346676197,
+      "combined_auroc": 0.8500707104787906,
+      "combined_alpha": 0.8,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4260.627511739731,
+    "timestamp": "2026-03-21 01:55:19"
+  },
+  {
+    "experiment": "tobacco_cross_seed123",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 123,
+    "nc_ahm": {
+      "ahss_auroc": 0.7563575335118443,
+      "ahss_fpr95": 0.6451036454610436,
+      "combined_auroc": 0.8206148478673534,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.5631635837444865,
+      "ahss_fpr95": 0.8473909935668335,
+      "combined_auroc": 0.8206148478673534,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.8519628182868886,
+      "ahss_fpr95": 0.6115082201572551,
+      "combined_auroc": 0.8536321291186675,
+      "combined_alpha": 0.2,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.5489368815396938,
+      "ahss_fpr95": 0.8809864188706219,
+      "combined_auroc": 0.8206148478673534,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4311.140752792358,
+    "timestamp": "2026-03-21 03:07:10"
+  },
+  {
+    "experiment": "tobacco_cross_seed456",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 456,
+    "nc_ahm": {
+      "ahss_auroc": 0.7694997348998004,
+      "ahss_fpr95": 0.6236597569692638,
+      "combined_auroc": 0.8619935535015275,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.7231302744428025,
+      "ahss_fpr95": 0.7462473195139385,
+      "combined_auroc": 0.8619935535015275,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.6621567157520796,
+      "ahss_fpr95": 0.7001429592566119,
+      "combined_auroc": 0.8619935535015275,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.7733644548319512,
+      "ahss_fpr95": 0.6583273766976412,
+      "combined_auroc": 0.8619935535015275,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4533.42475605011,
+    "timestamp": "2026-03-21 04:22:44"
+  },
+  {
+    "experiment": "tobacco_cross_seed789",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 789,
+    "nc_ahm": {
+      "ahss_auroc": 0.8197467344475404,
+      "ahss_fpr95": 0.5664760543245175,
+      "combined_auroc": 0.8884281968161313,
+      "combined_alpha": 0.9,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.7260330447142507,
+      "ahss_fpr95": 0.6461758398856325,
+      "combined_auroc": 0.8883917904057315,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.7975101091884653,
+      "ahss_fpr95": 0.6150822015725518,
+      "combined_auroc": 0.8883917904057315,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.842875060378237,
+      "ahss_fpr95": 0.540385989992852,
+      "combined_auroc": 0.8926013457039923,
+      "combined_alpha": 0.8,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4527.549063920975,
+    "timestamp": "2026-03-21 05:38:12"
+  },
+  {
+    "experiment": "tobacco_cross_seed1024",
+    "dataset": "tobacco",
+    "experiment_type": "cross",
+    "seed": 1024,
+    "nc_ahm": {
+      "ahss_auroc": 0.7204864511749015,
+      "ahss_fpr95": 0.5836311651179414,
+      "combined_auroc": 0.882860579856692,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "random": {
+      "ahss_auroc": 0.6905378201072092,
+      "ahss_fpr95": 0.6633309506790565,
+      "combined_auroc": 0.882860579856692,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "ahm": {
+      "ahss_auroc": 0.7445644203740528,
+      "ahss_fpr95": 0.6182987848463188,
+      "combined_auroc": 0.882860579856692,
+      "combined_alpha": 1.0,
+      "num_masks": 5
+    },
+    "dahm": {
+      "ahss_auroc": 0.6644780089898196,
+      "ahss_fpr95": 0.676554681915654,
+      "combined_auroc": 0.882860579856692,
+      "combined_alpha": 1.0,
+      "num_masks": 4
+    },
+    "elapsed_seconds": 4515.512619256973,
+    "timestamp": "2026-03-21 06:53:27"
+  }
+]

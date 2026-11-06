@@ -1,0 +1,92 @@
+{
+  "experiment": "tobacco_cross_seed123",
+  "dataset": "tobacco",
+  "experiment_type": "cross",
+  "seed": 123,
+  "num_masks": 30,
+  "individual_features": {
+    "mean": {
+      "name": "FSP_mean",
+      "auroc": 0.6884149674444647,
+      "fpr_at_95": 0.7730521801286633,
+      "id_mean": 0.18452516138035616,
+      "id_std": 0.1022629001014203,
+      "id_median": 0.16356636314921208,
+      "ood_mean": 0.2870610069794988,
+      "ood_std": 0.16577559949463647,
+      "ood_median": 0.2753573222906447,
+      "mann_whitney_u": 607655.0,
+      "mann_whitney_p": 1.2855886179583645e-53,
+      "significant": true
+    },
+    "variance": {
+      "name": "FSP_variance",
+      "auroc": 0.4916649830838383,
+      "fpr_at_95": 0.9463902787705504,
+      "id_mean": 0.0780551750202279,
+      "id_std": 0.08182212716615456,
+      "id_median": 0.04395017891533013,
+      "ood_mean": 0.07094461314933356,
+      "ood_std": 0.08199697749870319,
+      "ood_median": 0.041478529250536696,
+      "mann_whitney_u": 991358.0,
+      "mann_whitney_p": 0.495284080435472,
+      "significant": false
+    },
+    "skewness": {
+      "name": "FSP_skewness",
+      "auroc": 0.23470289805282107,
+      "fpr_at_95": 0.992494639027877,
+      "id_mean": 2.454895605895338,
+      "id_std": 0.9272491246720856,
+      "id_median": 2.4042782409294112,
+      "ood_mean": 1.5650390565998886,
+      "ood_std": 0.8292095566234048,
+      "ood_median": 1.4665292430739831,
+      "mann_whitney_u": 1492487.0,
+      "mann_whitney_p": 1.8043881063196822e-104,
+      "significant": true
+    },
+    "kurtosis": {
+      "name": "FSP_kurtosis",
+      "auroc": 0.25980998930369403,
+      "fpr_at_95": 0.9914224446032881,
+      "id_mean": 6.514494906795204,
+      "id_std": 4.964388599381217,
+      "id_median": 5.269440746881074,
+      "ood_mean": 2.8636171298786444,
+      "ood_std": 3.8257717633769266,
+      "ood_median": 1.6519551110424144,
+      "mann_whitney_u": 1443523.0,
+      "mann_whitney_p": 5.590112570134042e-86,
+      "significant": true
+    }
+  },
+  "combined": {
+    "name": "FSP_combined",
+    "auroc": 0.6884149674444647,
+    "fpr_at_95": 0.7730521801286633,
+    "selected_features": [
+      "mean"
+    ]
+  },
+  "fsp_variance_mah_combined": {
+    "auroc": 0.8206148478673534,
+    "best_alpha": 1.0,
+    "mah_only_auroc": 0.8206148478673534
+  },
+  "displacement_stats": {
+    "eval_shape": [
+      697,
+      30
+    ],
+    "ood_shape": [
+      2798,
+      30
+    ],
+    "eval_disp_global_mean": 0.18452516138035616,
+    "ood_disp_global_mean": 0.2870610069794988
+  },
+  "elapsed_seconds": 3190.127829313278,
+  "timestamp": "2026-03-20 07:23:11"
+}

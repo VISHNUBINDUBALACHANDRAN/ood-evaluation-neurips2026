@@ -1,0 +1,36 @@
+{
+  "experiment": "financedocs_intra_seed1024",
+  "dataset": "financedocs",
+  "experiment_type": "intra",
+  "seed": 1024,
+  "nc_ahm": {
+    "ahss_auroc": 0.9956220862975458,
+    "ahss_fpr95": 0.017421602787456445,
+    "combined_auroc": 0.9962697681506779,
+    "combined_alpha": 0.4,
+    "num_masks": 5
+  },
+  "random": {
+    "ahss_auroc": 0.940759623444005,
+    "ahss_fpr95": 0.44947735191637633,
+    "combined_auroc": 0.9959926850049529,
+    "combined_alpha": 0.8,
+    "num_masks": 5
+  },
+  "ahm": {
+    "ahss_auroc": 0.9850375101308525,
+    "ahss_fpr95": 0.05574912891986063,
+    "combined_auroc": 0.9956151592189026,
+    "combined_alpha": 0.7000000000000001,
+    "num_masks": 5
+  },
+  "dahm": {
+    "ahss_auroc": 0.9709409050920955,
+    "ahss_fpr95": 0.13588850174216027,
+    "combined_auroc": 0.9951787532643858,
+    "combined_alpha": 0.8,
+    "num_masks": 4
+  },
+  "elapsed_seconds": 2527.111563205719,
+  "timestamp": "2026-03-20 14:10:37"
+}

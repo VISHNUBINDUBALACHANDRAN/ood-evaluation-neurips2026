@@ -1,0 +1,32 @@
+{
+  "seed": 789,
+  "dataset": "Tobacco3482",
+  "experiment_type": "intra",
+  "num_labels": 9,
+  "label2id": {
+    "Email": 0,
+    "Form": 1,
+    "Letter": 2,
+    "Memo": 3,
+    "News": 4,
+    "Note": 5,
+    "Report": 6,
+    "Resume": 7,
+    "Scientific": 8
+  },
+  "id2label": {
+    "0": "Email",
+    "1": "Form",
+    "2": "Letter",
+    "3": "Memo",
+    "4": "News",
+    "5": "Note",
+    "6": "Report",
+    "7": "Resume",
+    "8": "Scientific"
+  },
+  "silhouette_score": 0.71977299451828,
+  "eval_accuracy": 0.9431643625192012,
+  "train_samples": 2601,
+  "eval_samples": 651
+}

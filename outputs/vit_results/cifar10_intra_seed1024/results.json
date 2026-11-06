@@ -1,0 +1,29 @@
+{
+  "experiment": "cifar10_intra",
+  "seed": 1024,
+  "architecture": "ViT-B/16",
+  "ahss_raw": {
+    "auroc": 0.8120644444444445,
+    "fpr_at_95": 0.807
+  },
+  "mahalanobis": {
+    "auroc": 0.9917677777777779,
+    "fpr_at_95": 0.033
+  },
+  "knn": {
+    "auroc": 0.98862,
+    "fpr_at_95": 0.061
+  },
+  "combined": {
+    "auroc": 0.9917677777777779,
+    "fpr_at_95": 0.033,
+    "best_alpha": 1.0
+  },
+  "mc_dropout": {
+    "auroc": 0.4885315555555555,
+    "fpr_at_95": 0.937
+  },
+  "n_train": 40500,
+  "n_eval": 4500,
+  "n_ood": 1000
+}

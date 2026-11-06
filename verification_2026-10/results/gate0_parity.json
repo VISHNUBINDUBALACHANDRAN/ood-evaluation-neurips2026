@@ -1,0 +1,90 @@
+{
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "checks": {
+    "layoutlmv3": {
+      "n_train": 2601,
+      "n_eval": 651,
+      "load": {
+        "n_tensors_loaded": 216,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/checkpoints/tobacco_intra_seed42/best_model/model.safetensors",
+        "weights_sha256": "e73c37beb3fc1b3744280b38ee7534e7ad1bd4fbe4abf997b2e4e0782cbcd22b",
+        "num_labels": 9
+      },
+      "labels_identical": true,
+      "cls": {
+        "cos_min": 0.9999998824960467,
+        "cos_mean": 0.999999998453458,
+        "max_abs_diff": 0.0014520585536956787,
+        "max_abs_ref": 4.358606815338135
+      },
+      "logits": {
+        "cos_min": 0.999999889821762,
+        "cos_mean": 0.9999999991976696,
+        "max_abs_diff": 0.003194570541381836,
+        "max_abs_ref": 8.00888729095459
+      },
+      "pred_agree": 1.0,
+      "acc_rerun": 0.9585253456221198,
+      "acc_original_fp32_extraction": 0.9585253456221198,
+      "acc_logged_by_trainer_fp16": 0.9585253456221198,
+      "throughput_per_s": 6.594363227862969,
+      "PASS": true
+    },
+    "roberta": {
+      "load": {
+        "n_tensors_loaded": 201,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [
+          "roberta.embeddings.position_ids"
+        ],
+        "weights": "$PROJECT_DIR/outputs/roberta_checkpoints/sst2_seed42/best_model/model.safetensors",
+        "weights_sha256": "b736d99b31b23a183978d47fa4cd326e2ea822a7dc6867af920e2636bbb2cd37",
+        "config": "$PROJECT_DIR/data/hf_cache/models--roberta-base/snapshots/e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+      },
+      "n_eval_total": 6735,
+      "ref_layers_offset": 1,
+      "cls_layers": {
+        "cos_min": 0.9999999999944708,
+        "cos_mean": 0.999999999999833,
+        "max_abs_diff": 3.528594970703125e-05,
+        "max_abs_ref": 26.82959747314453
+      },
+      "throughput_per_s": 98.94595141645375,
+      "PASS": true
+    },
+    "vit": {
+      "load": {
+        "n_tensors_loaded": 200,
+        "missing_ok": [],
+        "unexpected_ok_identical_buffers": [],
+        "weights": "$PROJECT_DIR/outputs/vit_checkpoints/cifar10_intra_seed42/best_model/model.safetensors",
+        "weights_sha256": "5604042aac1056a6689d22575ab1c492ed678007ed94569f0dc5d9d84a61bdc4"
+      },
+      "sizes": [
+        40500,
+        4500,
+        1000
+      ],
+      "ref_layers_offset": 1,
+      "cls_layers": {
+        "cos_min": 0.9999726992815056,
+        "cos_mean": 0.999999787956415,
+        "max_abs_diff": 0.20711898803710938,
+        "max_abs_ref": 60.62998962402344
+      },
+      "throughput_per_s": 60.16042682263879,
+      "PASS": true
+    }
+  },
+  "ALL_PASS": true
+}

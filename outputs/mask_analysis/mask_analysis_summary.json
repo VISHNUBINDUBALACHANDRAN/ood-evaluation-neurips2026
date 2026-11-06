@@ -1,0 +1,77 @@
+{
+  "num_experiments": 20,
+  "experiments": [
+    "financedocs_intra_seed42",
+    "financedocs_intra_seed123",
+    "financedocs_intra_seed456",
+    "financedocs_intra_seed789",
+    "financedocs_intra_seed1024",
+    "financedocs_cross_seed42",
+    "financedocs_cross_seed123",
+    "financedocs_cross_seed456",
+    "financedocs_cross_seed789",
+    "financedocs_cross_seed1024",
+    "tobacco_intra_seed42",
+    "tobacco_intra_seed123",
+    "tobacco_intra_seed456",
+    "tobacco_intra_seed789",
+    "tobacco_intra_seed1024",
+    "tobacco_cross_seed42",
+    "tobacco_cross_seed123",
+    "tobacco_cross_seed456",
+    "tobacco_cross_seed789",
+    "tobacco_cross_seed1024"
+  ],
+  "top_10_global": [
+    {
+      "layer": 5,
+      "head": 8,
+      "freq": 0.16
+    },
+    {
+      "layer": 11,
+      "head": 8,
+      "freq": 0.15
+    },
+    {
+      "layer": 6,
+      "head": 3,
+      "freq": 0.15
+    },
+    {
+      "layer": 11,
+      "head": 0,
+      "freq": 0.15
+    },
+    {
+      "layer": 2,
+      "head": 1,
+      "freq": 0.15
+    },
+    {
+      "layer": 5,
+      "head": 5,
+      "freq": 0.15
+    },
+    {
+      "layer": 1,
+      "head": 10,
+      "freq": 0.14
+    },
+    {
+      "layer": 3,
+      "head": 9,
+      "freq": 0.14
+    },
+    {
+      "layer": 6,
+      "head": 4,
+      "freq": 0.14
+    },
+    {
+      "layer": 5,
+      "head": 1,
+      "freq": 0.14
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "config": "c100_dtd",
+  "seed": 123,
+  "num_labels": 100,
+  "load": {
+    "n_tensors_loaded": 200,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [],
+    "weights": "$PROJECT_DIR/outputs/cifar100_checkpoints/cifar100_seed123/best_model/model.safetensors",
+    "weights_sha256": "5d4c7894773e401f5838ec597841dc8f917ef4f6fbdc9b41569b57dc7a2c546c"
+  },
+  "env": {
+    "python": "3.9.6",
+    "torch": "2.5.1",
+    "transformers": "4.57.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "device": "gpu"
+  },
+  "n_full": {
+    "train": 45000,
+    "eval": 5000,
+    "ood": 1880
+  },
+  "subsample_sizes": {
+    "train": 3000,
+    "eval": 1000,
+    "ood": 1000
+  },
+  "masks": {
+    "n": 25,
+    "heads_zeroed": [
+      14,
+      28
+    ]
+  },
+  "scores": {
+    "maha_unmasked": {
+      "auroc": 0.99838,
+      "fpr95": 0.003
+    },
+    "knn10_unmasked": {
+      "auroc": 0.9890180000000001,
+      "fpr95": 0.049
+    },
+    "mahAHM_asym": {
+      "auroc": 0.54552,
+      "fpr95": 0.994
+    },
+    "mahAHM_sym": {
+      "auroc": 0.99984,
+      "fpr95": 0.0
+    },
+    "knnAHM10_asym": {
+      "auroc": 0.60147,
+      "fpr95": 0.993
+    },
+    "knnAHM10_sym": {
+      "auroc": 0.8194619999999999,
+      "fpr95": 0.786
+    },
+    "mahAvgAvg_avg_pad_unmasked": {
+      "auroc": 0.999869,
+      "fpr95": 0.0
+    },
+    "mahAvgAvg_AHM_avg_pad_asym": {
+      "auroc": 0.999933,
+      "fpr95": 0.0
+    },
+    "mahAvgAvg_AHM_avg_pad_sym": {
+      "auroc": 0.9999359999999999,
+      "fpr95": 0.0
+    },
+    "ahss": {
+      "auroc": 0.521263,
+      "fpr95": 0.99
+    },
+    "mahAHM_top5_sym": {
+      "auroc": 0.998969,
+      "fpr95": 0.006
+    },
+    "mahAHM_top5_asym": {
+      "auroc": 0.509085,
+      "fpr95": 0.998
+    },
+    "knnAHM10_top5_sym": {
+      "auroc": 0.743673,
+      "fpr95": 0.902
+    },
+    "knnAHM10_top5_asym": {
+      "auroc": 0.5106900000000001,
+      "fpr95": 0.998
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_sym": {
+      "auroc": 0.9999439999999999,
+      "fpr95": 0.0
+    },
+    "mahAvgAvg_AHM_avg_pad_top5_asym": {
+      "auroc": 0.999943,
+      "fpr95": 0.0
+    }
+  },
+  "ahm_selection": {
+    "criterion": "AHMOptimizer._compute_similarity_score (mean top-K cos, eval->train, CLS)",
+    "K": 10,
+    "F": 5,
+    "scores": [
+      0.7207759635761977,
+      0.640318690850854,
+      0.7164306038850942,
+      0.7125330982315669,
+      0.7658193683637106,
+      0.7265662251697946,
+      0.7847470401763991,
+      0.6763631224062013,
+      0.7561308333248956,
+      0.7122248479517522,
+      0.7636463885560019,
+      0.7483827104424087,
+      0.7810218013257155,
+      0.7087946104643128,
+      0.7573441433503054,
+      0.7314642843202779,
+      0.7867306385720262,
+      0.6988216996612207,
+      0.7754959657751155,
+      0.7293014702634522,
+      0.7565854445513999,
+      0.7319606331170506,
+      0.7824583374986485,
+      0.6497497440507294,
+      0.7502186265714385
+    ],
+    "top_mask_indices": [
+      16,
+      6,
+      22,
+      12,
+      18
+    ]
+  },
+  "stored_original_full": {
+    "full_results:AHSS": 0.516527340425532,
+    "full_results:MC-Dropout": 0.4980574468085106,
+    "full_results:Mahalanobis": 0.9986074468085105,
+    "full_results:kNN": 0.9940173404255319,
+    "full_results:MSP": 0.9837526595744681,
+    "full_results:MaxLogit": 0.9921389361702128,
+    "full_results:Energy": 0.9936781914893618,
+    "full_results:KL": 0.98925585106383,
+    "full_results:Residual": 0.9993029787234042,
+    "full_results:NECO": 0.9909843617021278,
+    "full_results:ReAct": 0.9945156382978724,
+    "full_results:ASH": 0.992099255319149,
+    "full_results:X-Maha_uniform": 0.9999998936170212,
+    "full_results:X-Maha_optimized": 0.9999998936170212,
+    "full_results:mahAHM": 0.5310162765957447,
+    "full_results:knnAHM": 0.612416170212766,
+    "full_results:Combined": 0.9986074468085105,
+    "mahAvgAvg_AHM": 0.999925744680851
+  },
+  "seconds": 2638.158631801605
+}

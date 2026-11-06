@@ -1,0 +1,362 @@
+[
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_cross_seed1024",
+    "relative_path": "checkpoints/financedocs_cross_seed1024/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "e714373920481b2d23b70cc68aeb7df1cf049749c88e5e3d2aa150c76d1a31bd",
+    "config_file": "checkpoints__financedocs_cross_seed1024.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_cross_seed123",
+    "relative_path": "checkpoints/financedocs_cross_seed123/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "92e716a73f36239689611eff25823a85aeed64e3d76abda6bcd00a1899ce1cae",
+    "config_file": "checkpoints__financedocs_cross_seed123.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_cross_seed42",
+    "relative_path": "checkpoints/financedocs_cross_seed42/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "320ff69c6152d8f0e7e58daf650de0afd26e5ea7f8d28724a3c0939acc3872bf",
+    "config_file": "checkpoints__financedocs_cross_seed42.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_cross_seed456",
+    "relative_path": "checkpoints/financedocs_cross_seed456/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "a329612d251118a22b79c5e044a03207cdf7ad9895b722c4a6d5479c5fc514c6",
+    "config_file": "checkpoints__financedocs_cross_seed456.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_cross_seed789",
+    "relative_path": "checkpoints/financedocs_cross_seed789/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "492b7dede4e6f7e721886a23808ee2bf8e4f673609eba0b6635a0013eecb2250",
+    "config_file": "checkpoints__financedocs_cross_seed789.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_intra_seed1024",
+    "relative_path": "checkpoints/financedocs_intra_seed1024/best_model/model.safetensors",
+    "size_bytes": 503724252,
+    "sha256": "42157d7635897a0b44fa6c6af6336f9738d1a0e362f465258be1d561a9f97164",
+    "config_file": "checkpoints__financedocs_intra_seed1024.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_intra_seed123",
+    "relative_path": "checkpoints/financedocs_intra_seed123/best_model/model.safetensors",
+    "size_bytes": 503724252,
+    "sha256": "0d31e2d073276fe02187c89bde355e7f1726de0fc763b8919f93e1b034b7dc61",
+    "config_file": "checkpoints__financedocs_intra_seed123.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_intra_seed42",
+    "relative_path": "checkpoints/financedocs_intra_seed42/best_model/model.safetensors",
+    "size_bytes": 503724252,
+    "sha256": "0ddca2b64e114e43a0209000e4a765682b46bd42977c618098253221a6ddd661",
+    "config_file": "checkpoints__financedocs_intra_seed42.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_intra_seed456",
+    "relative_path": "checkpoints/financedocs_intra_seed456/best_model/model.safetensors",
+    "size_bytes": 503724252,
+    "sha256": "df337bd9b30daf262ad9ef410bb39f1de1f6a43d81902e72f93c561b71042fbe",
+    "config_file": "checkpoints__financedocs_intra_seed456.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "financedocs_intra_seed789",
+    "relative_path": "checkpoints/financedocs_intra_seed789/best_model/model.safetensors",
+    "size_bytes": 503724252,
+    "sha256": "6df5e813f1fe7eba08685706e79d6e6f50592506c20826337908af83a546faf8",
+    "config_file": "checkpoints__financedocs_intra_seed789.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_cross_seed1024",
+    "relative_path": "checkpoints/tobacco_cross_seed1024/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "a7788af816102aa561388a4adf3ad81b524060b3fc52796161f991637d228f83",
+    "config_file": "checkpoints__tobacco_cross_seed1024.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_cross_seed123",
+    "relative_path": "checkpoints/tobacco_cross_seed123/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "d2da03e9540d61685ebd99902dbb7177ec7ef34ac757e8942de70cf95339f27d",
+    "config_file": "checkpoints__tobacco_cross_seed123.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_cross_seed42",
+    "relative_path": "checkpoints/tobacco_cross_seed42/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "e2da510503e329f8b1d49f11960eaa036581160e1024e4d5b3d33cfe633293a6",
+    "config_file": "checkpoints__tobacco_cross_seed42.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_cross_seed456",
+    "relative_path": "checkpoints/tobacco_cross_seed456/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "9eac2363c9aede096a430506cf7cb64aa8591594fa5e92f2e1b1bfba2c251fb2",
+    "config_file": "checkpoints__tobacco_cross_seed456.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_cross_seed789",
+    "relative_path": "checkpoints/tobacco_cross_seed789/best_model/model.safetensors",
+    "size_bytes": 503727360,
+    "sha256": "e400af4044d3d20fd0d20a2ca80ce6c0ace8760353e130405371b05c2e81df02",
+    "config_file": "checkpoints__tobacco_cross_seed789.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_intra_seed1024",
+    "relative_path": "checkpoints/tobacco_intra_seed1024/best_model/model.safetensors",
+    "size_bytes": 503724284,
+    "sha256": "56ef0ef020057a608f13dcd798cbb15e672d8db47706ae3f75c0a2a51a6e4ebb",
+    "config_file": "checkpoints__tobacco_intra_seed1024.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_intra_seed123",
+    "relative_path": "checkpoints/tobacco_intra_seed123/best_model/model.safetensors",
+    "size_bytes": 503724284,
+    "sha256": "96a4be1bab7a9c847f1dd12643d6df51a7d0ccda6b59d7c0bb2517f7e52d01fc",
+    "config_file": "checkpoints__tobacco_intra_seed123.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_intra_seed42",
+    "relative_path": "checkpoints/tobacco_intra_seed42/best_model/model.safetensors",
+    "size_bytes": 503724284,
+    "sha256": "e73c37beb3fc1b3744280b38ee7534e7ad1bd4fbe4abf997b2e4e0782cbcd22b",
+    "config_file": "checkpoints__tobacco_intra_seed42.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_intra_seed456",
+    "relative_path": "checkpoints/tobacco_intra_seed456/best_model/model.safetensors",
+    "size_bytes": 503724284,
+    "sha256": "2703f690099281ee1c00d160ce0bbc0e66352fdd397c7aa7750340fba119571e",
+    "config_file": "checkpoints__tobacco_intra_seed456.config.json"
+  },
+  {
+    "architecture": "LayoutLMv3-base",
+    "category_dir": "checkpoints",
+    "run_id": "tobacco_intra_seed789",
+    "relative_path": "checkpoints/tobacco_intra_seed789/best_model/model.safetensors",
+    "size_bytes": 503724284,
+    "sha256": "de94fb256d3097b3451ee98833aba06c7e8d93e18000e1227260b4db5f375b94",
+    "config_file": "checkpoints__tobacco_intra_seed789.config.json"
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "cifar100_checkpoints",
+    "run_id": "cifar100_seed1024",
+    "relative_path": "cifar100_checkpoints/cifar100_seed1024/best_model/model.safetensors",
+    "size_bytes": 343526608,
+    "sha256": "b51ded4eb5613949555e64385808d2d28852180f63d7ed34e59ca7e39190681c",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "cifar100_checkpoints",
+    "run_id": "cifar100_seed123",
+    "relative_path": "cifar100_checkpoints/cifar100_seed123/best_model/model.safetensors",
+    "size_bytes": 343526608,
+    "sha256": "5d4c7894773e401f5838ec597841dc8f917ef4f6fbdc9b41569b57dc7a2c546c",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "cifar100_checkpoints",
+    "run_id": "cifar100_seed42",
+    "relative_path": "cifar100_checkpoints/cifar100_seed42/best_model/model.safetensors",
+    "size_bytes": 343526608,
+    "sha256": "ef1ebafd5378decc071b6231120f0ecfb129cbace76384f1711094b1d1c5b2a5",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "cifar100_checkpoints",
+    "run_id": "cifar100_seed456",
+    "relative_path": "cifar100_checkpoints/cifar100_seed456/best_model/model.safetensors",
+    "size_bytes": 343526608,
+    "sha256": "c7acc0bd04ee0ecc085d9d5e63f49ca4f3338bfac4756a4ef47ecf23a39affae",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "cifar100_checkpoints",
+    "run_id": "cifar100_seed789",
+    "relative_path": "cifar100_checkpoints/cifar100_seed789/best_model/model.safetensors",
+    "size_bytes": 343526608,
+    "sha256": "0969a596b33269ed512fa1803651d99747272d6dfd103dd173dff4964a31a6ab",
+    "config_file": null
+  },
+  {
+    "architecture": "RoBERTa-base",
+    "category_dir": "roberta_checkpoints",
+    "run_id": "sst2_seed1024",
+    "relative_path": "roberta_checkpoints/sst2_seed1024/best_model/model.safetensors",
+    "size_bytes": 498618208,
+    "sha256": "9c016e60aa3353be4fc405df2dc09671f9fc0dd6030e12d85225a0b4b0dd2e59",
+    "config_file": null
+  },
+  {
+    "architecture": "RoBERTa-base",
+    "category_dir": "roberta_checkpoints",
+    "run_id": "sst2_seed123",
+    "relative_path": "roberta_checkpoints/sst2_seed123/best_model/model.safetensors",
+    "size_bytes": 498618208,
+    "sha256": "c529f4977dc3fc772645c4b0c8e10b4a2afc1f395f49886624fb628897395ca0",
+    "config_file": null
+  },
+  {
+    "architecture": "RoBERTa-base",
+    "category_dir": "roberta_checkpoints",
+    "run_id": "sst2_seed42",
+    "relative_path": "roberta_checkpoints/sst2_seed42/best_model/model.safetensors",
+    "size_bytes": 498618208,
+    "sha256": "b736d99b31b23a183978d47fa4cd326e2ea822a7dc6867af920e2636bbb2cd37",
+    "config_file": null
+  },
+  {
+    "architecture": "RoBERTa-base",
+    "category_dir": "roberta_checkpoints",
+    "run_id": "sst2_seed456",
+    "relative_path": "roberta_checkpoints/sst2_seed456/best_model/model.safetensors",
+    "size_bytes": 498618208,
+    "sha256": "d77f33941b241ff13d98545b4a094c84b7bb6190a8b147701228a770e4d849b7",
+    "config_file": null
+  },
+  {
+    "architecture": "RoBERTa-base",
+    "category_dir": "roberta_checkpoints",
+    "run_id": "sst2_seed789",
+    "relative_path": "roberta_checkpoints/sst2_seed789/best_model/model.safetensors",
+    "size_bytes": 498618208,
+    "sha256": "08a3b95e4574c681592b87bdbd6b2b6e4c2b38272eca41406e404bd08cf371ac",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_intra_seed1024",
+    "relative_path": "vit_checkpoints/cifar10_intra_seed1024/best_model/model.safetensors",
+    "size_bytes": 343246676,
+    "sha256": "24bb0eb7de53080166ad94e7f864834e4b731631801ba54c12084c10af85bf48",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_intra_seed123",
+    "relative_path": "vit_checkpoints/cifar10_intra_seed123/best_model/model.safetensors",
+    "size_bytes": 343246676,
+    "sha256": "057f0847645b586ddff3e36aa7497e728d2263d8e05d71f492e47b2f2599673a",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_intra_seed42",
+    "relative_path": "vit_checkpoints/cifar10_intra_seed42/best_model/model.safetensors",
+    "size_bytes": 343246676,
+    "sha256": "5604042aac1056a6689d22575ab1c492ed678007ed94569f0dc5d9d84a61bdc4",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_intra_seed456",
+    "relative_path": "vit_checkpoints/cifar10_intra_seed456/best_model/model.safetensors",
+    "size_bytes": 343246676,
+    "sha256": "5c0c820af543190c7e2bb73b639518be2fec8de4814abc7f4d1d89019cd23b95",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_intra_seed789",
+    "relative_path": "vit_checkpoints/cifar10_intra_seed789/best_model/model.safetensors",
+    "size_bytes": 343246676,
+    "sha256": "b9d1c6f7d6ce742d75f1b2d3b64412a8265e846840252100c65f0176cf4e5d4a",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_svhn_seed1024",
+    "relative_path": "vit_checkpoints/cifar10_svhn_seed1024/best_model/model.safetensors",
+    "size_bytes": 343249752,
+    "sha256": "c66543aab9ee05581356783b3e153a6caeb4f1c23060ac809e62d270b78a8f4a",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_svhn_seed123",
+    "relative_path": "vit_checkpoints/cifar10_svhn_seed123/best_model/model.safetensors",
+    "size_bytes": 343249752,
+    "sha256": "5157c7adc29094234c54e32677991bd0237c25a536a02a17ce15ec67bfa107cf",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_svhn_seed42",
+    "relative_path": "vit_checkpoints/cifar10_svhn_seed42/best_model/model.safetensors",
+    "size_bytes": 343249752,
+    "sha256": "815e934d57065e4efce88aebcbfe9970730fb26f86e93c15dbfec4826704fbe3",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_svhn_seed456",
+    "relative_path": "vit_checkpoints/cifar10_svhn_seed456/best_model/model.safetensors",
+    "size_bytes": 343249752,
+    "sha256": "37865890ab8ce320b33eacfa89e7b38bd944d1fb9da891e7a011985dbad1869a",
+    "config_file": null
+  },
+  {
+    "architecture": "ViT-B/16",
+    "category_dir": "vit_checkpoints",
+    "run_id": "cifar10_svhn_seed789",
+    "relative_path": "vit_checkpoints/cifar10_svhn_seed789/best_model/model.safetensors",
+    "size_bytes": 343249752,
+    "sha256": "c45fbf071e9d2e44ae4487623731aa017cef35d19e83e8a98ee51701b41ddf62",
+    "config_file": null
+  }
+]

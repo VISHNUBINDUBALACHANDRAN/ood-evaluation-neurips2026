@@ -1,0 +1,77 @@
+{
+  "holdout": "Form",
+  "seed": 456,
+  "train_classes": [
+    "Memo",
+    "Email",
+    "Letter",
+    "Report",
+    "Scientific",
+    "Note",
+    "News",
+    "Advertisement",
+    "Resume"
+  ],
+  "n_train": 2440,
+  "n_eval": 611,
+  "n_ood": 431,
+  "n_eval_letter": 114,
+  "eval_acc_rerun": 0.9541734860883797,
+  "eval_acc_logged": 0.9541734860883797,
+  "SPLIT_GATE_PASS": true,
+  "all_id_vs_ood": {
+    "mahalanobis": {
+      "auroc": 0.9049369448737568,
+      "fpr95": 0.5777262180974478
+    },
+    "knn_k50": {
+      "auroc": 0.894672686744563,
+      "fpr95": 0.5754060324825986
+    },
+    "knn_k10": {
+      "auroc": 0.898401692102635,
+      "fpr95": 0.5707656612529002
+    },
+    "msp": {
+      "auroc": 0.7670510858544625,
+      "fpr95": 0.6566125290023201
+    },
+    "energy": {
+      "auroc": 0.7693295005335288,
+      "fpr95": 0.6241299303944315
+    }
+  },
+  "letter_vs_ood": {
+    "mahalanobis": {
+      "auroc": 0.960373671999023,
+      "fpr95": 0.27610208816705334
+    },
+    "knn_k50": {
+      "auroc": 0.9503805918508568,
+      "fpr95": 0.29698375870069604
+    },
+    "knn_k10": {
+      "auroc": 0.9550616680913421,
+      "fpr95": 0.271461716937355
+    },
+    "msp": {
+      "auroc": 0.7430496194081491,
+      "fpr95": 0.5916473317865429
+    },
+    "energy": {
+      "auroc": 0.8756258395408475,
+      "fpr95": 0.45243619489559167
+    }
+  },
+  "load": {
+    "n_tensors_loaded": 216,
+    "missing_ok": [],
+    "unexpected_ok_identical_buffers": [
+      "layoutlmv3.embeddings.position_ids"
+    ],
+    "weights": "$CHECKPOINT_DIR/checkpoints/leaveout_Form_seed456/best_model/pytorch_model.bin",
+    "weights_sha256": "b3cd574706b315b7e8186cce256c030943eef1de10bdeee81a220ed561697c1b",
+    "num_labels": 9
+  },
+  "seconds": 516.8982441425323
+}
